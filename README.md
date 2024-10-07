@@ -47,6 +47,12 @@ This survey provides a comprehensive overview of the current state of conversati
   - TODO
 - [2021/01] **Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies** *Mor Geva et al. arXiv.* [[paper](https://arxiv.org/abs/2101.02235)]
   - TODO
+- [2022/02] **MiniWob++: A data-driven approach for learning to control computers** *Peter C Humphreys et al. arXiv.* [[paper](https://arxiv.org/abs/2202.08137)]
+  - TODO
+- [2022/03] **ScienceWorld: Is your Agent Smarter than a 5th Grader?** *Ruoyao Wang et al. arXiv.* [[paper](https://arxiv.org/abs/2203.07540)]
+  - TODO
+- [2022/07] **WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents** *Shunyu Yao et al. arXiv.* [[paper](https://arxiv.org/abs/2207.01206)]
+  - TODO
 - [2022/10] **Measuring and Narrowing the Compositionality Gap in Language Models** *Ofir Press et al. arXiv.* [[paper](https://arxiv.org/abs/2210.03350)]
   - TODO
 - [2023/06] **Mind2Web: Towards a Generalist Agent for the Web** *Xiang Deng et al. arXiv.* [[paper](https://arxiv.org/abs/2306.06070)]
@@ -57,15 +63,15 @@ This survey provides a comprehensive overview of the current state of conversati
   - TODO
 - [2023/09] **MINT: Evaluating LLMs in Multi-turn Interaction with Tools and Language Feedback** *Xingyao Wang et al. arXiv.* [[paper](https://arxiv.org/abs/2309.10691)]
   - TODO
-- [2022/07] **WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents** *Shunyu Yao et al. arXiv.* [[paper](https://arxiv.org/abs/2207.01206)]
-  - TODO
 - [2023/12] **T-Eval: Evaluating the Tool Utilization Capability of Large Language Models Step by Step** *Zehui Chen et al. arXiv.* [[paper](https://arxiv.org/abs/2312.14033)]
   - TODO
-- [2022/02] **MiniWob++: A data-driven approach for learning to control computers** *Peter C Humphreys et al. arXiv.* [[paper](https://arxiv.org/abs/2202.08137)]
-  - TODO
-- [2022/03] **ScienceWorld: Is your Agent Smarter than a 5th Grader?** *Ruoyao Wang et al. arXiv.* [[paper](https://arxiv.org/abs/2203.07540)]
+- [2024/10] **Agent Arena: Evaluating and Comparing LLM Agents Across Models, Tools, and Frameworks** *Nithik Yekollu et al. arXiv.* [[blog](https://gorilla.cs.berkeley.edu/blogs/14_agent_arena.html)]
   - TODO
 
 ## 5. Surveys
 
 ## 6. Agents
+- [2023/07] **A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis** *Izzeddin Gur et al. arXiv.* [[paper](https://arxiv.org/abs/2307.12856)]
+  - TODO
+- [2023/07] **A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis** *Izzeddin Gur et al. arXiv.* [[paper](https://arxiv.org/abs/2307.12856)]
+  - TODO
