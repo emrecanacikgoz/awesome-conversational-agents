@@ -19,6 +19,8 @@ This survey provides a comprehensive overview of the current state of conversati
   - TODO
 - [2023/07] **ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs** *Yujia Qin et al. arXiv.* [[paper](https://arxiv.org/abs/2307.16789)]
   - TODO
+- [2023/10] **ToolChain: Efficient Action Space Navigation in Large Language Models with A Search** *Yuchen Zhuang et al. arXiv.* [[paper](https://arxiv.org/abs/2310.13227)]
+  - TODO
 
 ## 2. Prompting
 - [2020/05] **Language Models are Few-Shot Learners** *Tom B. Brown et al. arXiv.* [[paper](https://arxiv.org/abs/2005.14165)]
@@ -27,7 +29,11 @@ This survey provides a comprehensive overview of the current state of conversati
   - This work improved LLM reasonong by generating a step-by-step reasoning as an intermediate step to arrive final answer for complex tasks.
 - [2022/10] **ReAct: Synergizing Reasoning and Acting in Language Models** *Shunyu Yao et al. arXiv.* [[paper](https://arxiv.org/abs/2210.03629)]
   - This work proposed to generate both the reasoning and action traces for agent-based task completion tasks.
+- [2023/11] **Reflexion: Language Agents with Verbal Reinforcement Learning** *Noah Shinn et al. arXiv.* [[paper](https://arxiv.org/abs/2303.11366)]
+  - TODO
 - [2023/05] **Tree of Thoughts: Deliberate Problem Solving with Large Language Models** *Shunyu Yao et al. arXiv.* [[paper](https://arxiv.org/abs/2305.10601)]
+  - TODO
+- [2023/05] **ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language Models** *Zhipeng Chen et al. arXiv.* [[paper](https://arxiv.org/abs/2305.14323)]
   - TODO
 
 ## 3. Fine-tuning
@@ -69,9 +75,37 @@ This survey provides a comprehensive overview of the current state of conversati
   - TODO
 
 ## 5. Surveys
+- [2023/03] **A Survey of Large Language Models** *Wayne Xin Zhao et al. arXiv.* [[paper](https://arxiv.org/abs/2303.18223)]
+  - TODO
+- [2023/08] **A Survey on Large Language Model based Autonomous Agents** *Lei Wang et al. arXiv.* [[paper](https://arxiv.org/abs/2308.11432)]
+  - TODO
+- [2023/09] **The Rise and Potential of Large Language Model Based Agents: A Survey** *Zhiheng Xi et al. arXiv.* [[paper](https://arxiv.org/abs/2309.07864)]
+  - TODO
+- [2023/09] **An In-depth Survey of Large Language Model-based Artificial Intelligence Agents** *Pengyu Zhao et al. arXiv.* [[paper](https://arxiv.org/abs/2309.14365)]
+  - TODO
+- [2023/09] **Natural Language based Context Modeling and Reasoning for Ubiquitous Computing with Large Language Models: A Tutoria** *Haoyi Xiong et al. arXiv.* [[paper](https://arxiv.org/abs/2309.15074)]
+  - TODO
 
 ## 6. Agents
 - [2023/07] **A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis** *Izzeddin Gur et al. arXiv.* [[paper](https://arxiv.org/abs/2307.12856)]
   - TODO
-- [2023/07] **A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis** *Izzeddin Gur et al. arXiv.* [[paper](https://arxiv.org/abs/2307.12856)]
+- [2023/10] **Agent Instructs Large Language Models to be General Zero-Shot Reasoners** *Nicholas Crispino et al. arXiv.* [[paper](https://arxiv.org/abs/2310.03710)]
+  - TODO
+- [2023/04] **Generative Agents: Interactive Simulacra of Human Behavior** *Joon Sung Park et al. arXiv.* [[paper](https://arxiv.org/abs/2304.03442)]
+  - TODO
+- [2023/05] **SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks** *Bill Yuchen Lin et al. arXiv.* [[paper](https://arxiv.org/abs/2305.17390)]
+  - TODO
+- [2023/08] **AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation** *Qingyun Wu et al. arXiv.* [[paper](https://arxiv.org/abs/2308.08155)]
+  - TODO
+- [2023/09] **AutoAgents: A Framework for Automatic Agent Generation** *Guangyao Che et al. arXiv.* [[paper](https://arxiv.org/abs/2309.17288)]
+  - TODO
+- [2023/10] **OpenAgents: An Open Platform for Language Agents in the Wild** *Tianbao Xie et al. arXiv.* [[paper](https://arxiv.org/abs/2310.10634)]
+  - TODO
+- [2023/10] **Agent Instructs Large Language Models to be General Zero-Shot Reasoners** *Nicholas Crispino et al. arXiv.* [[paper](https://arxiv.org/abs/2310.03710)]
+  - TODO
+- [2023/10] **Adapting LLM Agents with Universal Feedback in Communication** *Kuan Wang et al. arXiv.* [[paper](https://arxiv.org/abs/2310.01444)]
+  - TODO
+- [2024/04] **ClinicalAgent: Clinical Trial Multi-Agent System with Large Language Model-based Reasoning** *Ling Yue et al. arXiv.* [[paper](https://arxiv.org/abs/2404.14777)]
+  - TODO
+- [2024/05] **AgentClinic: a multimodal agent benchmark to evaluate AI in simulated clinical environments** *Samuel Schmidgall et al. arXiv.* [[paper](https://arxiv.org/abs/2405.07960)]
   - TODO
