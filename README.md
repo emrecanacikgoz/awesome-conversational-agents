@@ -40,8 +40,32 @@ This survey provides a comprehensive overview of the current state of conversati
 - [2024/03] **Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models** *Zehui Chen et al. arXiv.* [[paper](https://arxiv.org/abs/2403.12881)]
   - TODO
 
-## 4. Agents
+## 4. Benchmarks
+- [2018/09] **HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering** *Zhilin Yang et al. arXiv.* [[paper](https://arxiv.org/abs/1809.09600)]
+  - TODO
+- [2020/10] **ALFWorld: Aligning Text and Embodied Environments for Interactive Learning** *Mohit Shridhar et al. arXiv.* [[paper](https://arxiv.org/abs/2010.03768)]
+  - TODO
+- [2021/01] **Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies** *Mor Geva et al. arXiv.* [[paper](https://arxiv.org/abs/2101.02235)]
+  - TODO
+- [2022/10] **Measuring and Narrowing the Compositionality Gap in Language Models** *Ofir Press et al. arXiv.* [[paper](https://arxiv.org/abs/2210.03350)]
+  - TODO
+- [2023/06] **Mind2Web: Towards a Generalist Agent for the Web** *Xiang Deng et al. arXiv.* [[paper](https://arxiv.org/abs/2306.06070)]
+  - TODO
+- [2023/08] **AgentBench: Evaluating LLMs as Agents** *Xiao Liu et al. arXiv.* [[paper](https://arxiv.org/abs/2308.03688)]
+  - TODO
+- [2023/07] **WebArena: A Realistic Web Environment for Building Autonomous Agents** *Shuyan Zhou et al. arXiv.* [[paper](https://arxiv.org/abs/2307.13854)]
+  - TODO
+- [2023/09] **MINT: Evaluating LLMs in Multi-turn Interaction with Tools and Language Feedback** *Xingyao Wang et al. arXiv.* [[paper](https://arxiv.org/abs/2309.10691)]
+  - TODO
+- [2022/07] **WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents** *Shunyu Yao et al. arXiv.* [[paper](https://arxiv.org/abs/2207.01206)]
+  - TODO
+- [2023/12] **T-Eval: Evaluating the Tool Utilization Capability of Large Language Models Step by Step** *Zehui Chen et al. arXiv.* [[paper](https://arxiv.org/abs/2312.14033)]
+  - TODO
+- [2022/02] **MiniWob++: A data-driven approach for learning to control computers** *Peter C Humphreys et al. arXiv.* [[paper](https://arxiv.org/abs/2202.08137)]
+  - TODO
+- [2022/03] **ScienceWorld: Is your Agent Smarter than a 5th Grader?** *Ruoyao Wang et al. arXiv.* [[paper](https://arxiv.org/abs/2203.07540)]
+  - TODO
 
-## 5. Benchmarks
+## 5. Surveys
 
-## 6. Surveys
+## 6. Agents
