@@ -10,6 +10,30 @@ This paper presents a thorough survey of the recent advancements, challenges, an
 
 This survey provides a comprehensive overview of the current state of conversational agents, shedding light on the strides made with LLMs, addressing key challenges, and outlining future directions to guide the continued evolution of intelligent, context-aware dialogue systems.
 
+## Table of Content (ToC)
+
+
+- [The Rise and Potential of Large Language Model Based Agents: A Survey](#the-rise-and-potential-of-large-language-model-based-agents-a-survey)
+  - [💫 Introduction](#-introduction)
+  - [Table of Content (ToC)](#table-of-content-toc)
+  - [1. Background](#1-background)
+    - [1.1 What are Agents](#11-what-are-agents)
+    - [1.2 Large Lange Model Paradigm](#12-large-language-model-paradigm)
+    - [1.3 Large Language Models and Agents](#13-large-language-models-and-agents)
+  - [2. Conversational Agents](#2-conversational-agents)
+    - [2.1 Tools and APIs](#21-tools-and-apis)
+    - [2.2 Datasets](#22-datasets)
+    - [2.3 Prompting and In-Context Learning in Agents](#23-prompting-and-in-context-learning-in-agents)
+    - [2.4 Training Conversational Agents](#24-training-conversational-agents)
+  - [3. Applications](#3-agent-society-from-individuality-to-sociality)
+    - [3.1 Evaluation Benchmarks](#31-evaluation-benchmarks)
+    - [3.2 Experiments](#32-evaluation-benchmarks)
+  - [4. Discussion](#4-discussion)
+    - [4.1 Discussion Topic1](#41-discussion-topic1)
+    - [4.2 Discussion Topic2](#42-discussion-topic2)
+    - [4.3 Discussion Topic3](#43-discussion-topics)
+  - [5. Future Work](#4-future-work)
+
 # 📝 Papers
 
 ## 1. Tools
