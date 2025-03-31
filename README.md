@@ -1,64 +1,75 @@
-# conversational-agents-survey
-Paper lists for "Conversational Agents: A Survey of Advances, Challenges, and Future Directions"
+# 💫 Awsome Conversational Agents
+[![Paper](https://img.shields.io/badge/arXiv-Paper-red.svg)](https://arxiv.org/abs/2502.08820)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
+[![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/emrecanacikgoz/conversational-agents-survey/pulls)
 
-# 💫 Introduction
-The development of conversational agents has always been an area of keen interest within artificial intelligence (AI) research, representing a significant step towards creating interactive systems capable of human-like understanding, communication, and acting. Conversational agents are chat-based AI systems that aim to interact with users in a human-like manner by understanding their input, engaging in meaningful communication, and performing actions based on the user’s intent and context.
+**[A Desideratum for Conversational Agents: Capabilities, Challenges, and Future Directions](https://emrecanacikgoz.github.io/CoALM/)**
+[Emre Can Acikgoz](https://emrecanacikgoz.github.io/), [Cheng Qian](https://qiancheng0.github.io/), [Hongru Wang](https://rulegreen.github.io/), [Vardhan Dongre](https://vardhandongre.github.io/), [Xiusi Chen](https://xiusic.github.io/), [Heng Ji](https://blender.cs.illinois.edu/hengji.html), [Dilek Hakkani-Tür](https://siebelschool.illinois.edu/about/people/faculty/dilek), [Gokhan Tur](https://siebelschool.illinois.edu/about/people/faculty/gokhan)
 
-In recent years, the emergence of Large Language Models (LLMs) has further accelerated the progress of Conversational Agents. LLMs now serve as the backbone of many state-of-the-art conversational systems, seamlessly integrating with APIs and databases to perform complex multi-step tasks, such as restaurant reservations or calling a taxi. This integration allows agents to interact with external services, access up-to-date information, and ensure task completion by providing users with more dynamic, context-driven, and reliable experiences.
-
-This paper presents a thorough survey of the recent advancements, challenges, and future research directions in the scope of conversational agents. We begin by establishing a taxonomy that categorizes conversational agents according to their prompting strategies, training data formats, fine-tuning methods, and evaluation protocols. Next, we discuss recent breakthroughs in natural language understanding, dialogue management, and response generation by highlighting the contributions of LLMs in these areas and how agents can relate those. Subsequently, we examine various challenges that remain, such as handling multi-turn and multi-agent interactions, the personalization of dialogues, and addressing safety concerns. Finally, we outline potential future directions, such as the integration of cleaner and more advanced datasets,improved training strategies for agentic purposes and the development of more holistic evaluation frameworks for conversational agents.
-
-This survey provides a comprehensive overview of the current state of conversational agents, shedding light on the strides made with LLMs, addressing key challenges, and outlining future directions to guide the continued evolution of intelligent, context-aware dialogue systems.
-
-## Table of Content (ToC)
+Recent advances in Large Language Models (LLMs) have propelled conversational AI from traditional dialogue systems into sophisticated agents capable of autonomous actions, contextual awareness, and multi-turn interactions with users. Yet, fundamental questions about their capabilities, limitations, and paths forward remain open. This survey paper presents a desideratum for next-generation Conversational Agents—*what has been achieved*, *what challenges persist*, and *what must be done for more scalable systems that approach human-level intelligence*. To that end, we systematically analyze LLM-driven Conversational Agents by organizing their capabilities into three primary dimensions: (i) **Reasoning**—logical, systematic thinking inspired by human intelligence for decision making, (ii) **Monitoring**—encompassing self-awareness and user interaction monitoring, and (iii) **Control**—focusing on tool utilization and policy following. Building upon this, we introduce a novel taxonomy by classifying recent work on Conversational Agents around our proposed desideratum. We identify critical research gaps and outline key directions, including **realistic evaluations**, **long-term multi-turn reasoning skills**, **self-evolution capabilities**, **collaborative and multi-agent task completion**, **personalization**, and **proactivity**. This work aims to provide a structured foundation, highlight existing limitations, and offer insights into potential future research directions for Conversational Agents, ultimately advancing progress toward Artificial General Intelligence (AGI).
 
 
-- [The Rise and Potential of Large Language Model Based Agents: A Survey](#the-rise-and-potential-of-large-language-model-based-agents-a-survey)
-  - [💫 Introduction](#-introduction)
-  - [Table of Content (ToC)](#table-of-content-toc)
-  - [1. Background](#1-background)
-    - [1.1 What are Agents](#11-what-are-agents)
-    - [1.2 Large Lange Model Paradigm](#12-large-language-model-paradigm)
-    - [1.3 Large Language Models and Agents](#13-large-language-models-and-agents)
-  - [2. Conversational Agents](#2-conversational-agents)
-    - [2.1 Tools and APIs](#21-tools-and-apis)
-    - [2.2 Datasets](#22-datasets)
-    - [2.3 Prompting and In-Context Learning in Agents](#23-prompting-and-in-context-learning-in-agents)
-    - [2.4 Training Conversational Agents](#24-training-conversational-agents)
-  - [3. Applications](#3-agent-society-from-individuality-to-sociality)
-    - [3.1 Evaluation Benchmarks](#31-evaluation-benchmarks)
-    - [3.2 Experiments](#32-evaluation-benchmarks)
-  - [4. Discussion](#4-discussion)
-    - [4.1 Discussion Topic1](#41-discussion-topic1)
-    - [4.2 Discussion Topic2](#42-discussion-topic2)
-    - [4.3 Discussion Topic3](#43-discussion-topics)
-  - [5. Future Work](#4-future-work)
+# 📝 Conversational Agent Papers
 
-# 📝 Papers
+## 1. Reasoning
 
-## 1. Tools
-- [2023/02] **Toolformer: Language Models Can Teach Themselves to Use Tools** *Timo Schick et al. arXiv.* [[paper](https://arxiv.org/abs/2302.04761)]
+### 1.1 General Reasoning
+- [2022/01] **Chain-of-thought prompting elicits reasoning in large language models** *Jason Wei et al. NeurIPS 2022.* [[paper](https://arxiv.org/abs/2201.11903)]
   - TODO
-- [2023/04] **Tool Learning with Foundation Models** *Yujia Qin et al. arXiv.* [[paper](https://arxiv.org/abs/2304.08354)]
+- [2022/03] **Self-Consistency Improves Chain of Thought Reasoning in Language Models** *Xuezhi Wang et al. ICLR 2023.* [[paper](https://arxiv.org/abs/2203.11171)]
   - TODO
-- [2023/07] **ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs** *Yujia Qin et al. arXiv.* [[paper](https://arxiv.org/abs/2307.16789)]
+- [2023/03] **Self-refine: Iterative refinement with self-feedback** *Aman Madaan et al. NeurIPS 2023.* [[paper](https://arxiv.org/abs/2303.17651)]
   - TODO
-- [2023/10] **ToolChain: Efficient Action Space Navigation in Large Language Models with A Search** *Yuchen Zhuang et al. arXiv.* [[paper](https://arxiv.org/abs/2310.13227)]
+- [2023/08] **Graph of thoughts: Solving elaborate problems with large language models** *Maciej Besta et al. AAAI 2024.* [[paper](https://arxiv.org/abs/2308.09687)]
+  - TODO
+- [2023/08] **Cue-CoT: Chain-of-thought Prompting for Responding to In-depth Dialogue Questions with LLMs** *Hongru Wang et al. EMNLP 2023 Findings.* [[paper](https://arxiv.org/abs/2305.11792)]
   - TODO
 
-## 2. Prompting
-- [2020/05] **Language Models are Few-Shot Learners** *Tom B. Brown et al. arXiv.* [[paper](https://arxiv.org/abs/2005.14165)]
-  - This work pioneered Few-Shot Learning, paving the way for the concept of In-Context Learning through prompting strategies.
-- [2022/01] **Chain-of-Thought Prompting Elicits Reasoning in Large Language Models** *Jason et al. arXiv.* [[paper](https://arxiv.org/abs/2201.11903)]
-  - This work improved LLM reasonong by generating a step-by-step reasoning as an intermediate step to arrive final answer for complex tasks.
-- [2022/10] **ReAct: Synergizing Reasoning and Acting in Language Models** *Shunyu Yao et al. arXiv.* [[paper](https://arxiv.org/abs/2210.03629)]
-  - This work proposed to generate both the reasoning and action traces for agent-based task completion tasks.
-- [2023/11] **Reflexion: Language Agents with Verbal Reinforcement Learning** *Noah Shinn et al. arXiv.* [[paper](https://arxiv.org/abs/2303.11366)]
+### 1.2 Agentic Prompting
+- [2022/10] **ReAct: Synergizing Reasoning and Acting in Language Models** *Shunyu Yao et al. ICLR 2023.* [[paper](https://arxiv.org/abs/2210.03629)]
   - TODO
-- [2023/05] **Tree of Thoughts: Deliberate Problem Solving with Large Language Models** *Shunyu Yao et al. arXiv.* [[paper](https://arxiv.org/abs/2305.10601)]
+- [2023/03] **Art: Automatic multi-step reasoning and tool-use for large language models** *Bhargavi Paranjape et al. arXiv.* [[paper](https://arxiv.org/abs/2303.09014)]
   - TODO
-- [2023/05] **ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language Models** *Zhipeng Chen et al. arXiv.* [[paper](https://arxiv.org/abs/2305.14323)]
+- [2023/03] **Reflexion: Language Agents with Verbal Reinforcement Learning** *Noah Shinn et al. NeurIPS 2023.* [[paper](https://arxiv.org/abs/2303.11366)]
   - TODO
+- [2023/05] **Tree of Thoughts: Deliberate Problem Solving with Large Language Models** *Shunyu Yao et al. NeurIPS 2023.* [[paper](https://arxiv.org/abs/2305.10601)]
+  - TODO
+- [2023/05] **MultiTool-CoT: GPT-3 Can Use Multiple External Tools with Chain of Thought Prompting** *Tatsuro Inaba et al. ACL 2023.* [[paper](https://arxiv.org/abs/2305.16896)]
+  - TODO
+- [2023/05] **ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language Models** *Zhipeng Chen et al. EMNLP 2023 Findings.* [[paper](https://arxiv.org/abs/2305.14323)]
+  - TODO
+- [2023/10] **Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models** *Andy Zhou et al. ICML 2024.* [[paper](https://arxiv.org/abs/2310.04406)]
+  - TODO
+- [2023/10] **ToolChain*: Efficient Action Space Navigation in Large Language Models with A* Search** *Yuchen Zhuang et al. ICLR 2024.* [[paper](https://arxiv.org/abs/2310.13227)]
+  - TODO
+- [2024/11] **ReSpAct: Harmonizing Reasoning, Speaking, and Acting Towards Building Large Language Model-Based Conversational AI Agents** *Vardhan Dongre et al. arXiv 2024.* [[paper](https://arxiv.org/abs/2411.00927)]
+  - TODO
+
+## Monitor
+
+### 2.1 Self Awareness
+- [2022/10] **ReAct: Synergizing Reasoning and Acting in Language Models** *Shunyu Yao et al. ICLR 2023.* [[paper](https://arxiv.org/abs/2210.03629)]
+  - TODO
+- [2023/03] **Art: Automatic multi-step reasoning and tool-use for large language models** *Bhargavi Paranjape et al. arXiv.* [[paper](https://arxiv.org/abs/2303.09014)]
+  - TODO
+- [2023/03] **Reflexion: Language Agents with Verbal Reinforcement Learning** *Noah Shinn et al. NeurIPS 2023.* [[paper](https://arxiv.org/abs/2303.11366)]
+  - TODO
+- [2023/05] **Tree of Thoughts: Deliberate Problem Solving with Large Language Models** *Shunyu Yao et al. NeurIPS 2023.* [[paper](https://arxiv.org/abs/2305.10601)]
+  - TODO
+- [2023/05] **MultiTool-CoT: GPT-3 Can Use Multiple External Tools with Chain of Thought Prompting** *Tatsuro Inaba et al. ACL 2023.* [[paper](https://arxiv.org/abs/2305.16896)]
+  - TODO
+- [2023/05] **ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language Models** *Zhipeng Chen et al. EMNLP 2023 Findings.* [[paper](https://arxiv.org/abs/2305.14323)]
+  - TODO
+- [2023/10] **Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models** *Andy Zhou et al. ICML 2024.* [[paper](https://arxiv.org/abs/2310.04406)]
+  - TODO
+- [2023/10] **ToolChain*: Efficient Action Space Navigation in Large Language Models with A* Search** *Yuchen Zhuang et al. ICLR 2024.* [[paper](https://arxiv.org/abs/2310.13227)]
+  - TODO
+- [2024/11] **ReSpAct: Harmonizing Reasoning, Speaking, and Acting Towards Building Large Language Model-Based Conversational AI Agents** *YVardhan Dongre et al. arXiv 2024.* [[paper](https://arxiv.org/abs/2411.00927)]
+  - TODO
+
+
+
 
 ## 3. Fine-tuning
 - [2023/10] **AgentTuning: Enabling Generalized Agent Abilities for LLMs** *Aohan Zeng et al. arXiv.* [[paper](https://arxiv.org/abs/2310.12823)]
