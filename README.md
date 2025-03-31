@@ -49,28 +49,33 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 ## Monitor
 
 ### 2.1 Self Awareness
-- [2022/10] **ReAct: Synergizing Reasoning and Acting in Language Models** *Shunyu Yao et al. ICLR 2023.* [[paper](https://arxiv.org/abs/2210.03629)]
+
+#### 2.1.1 Self-Impose Capability 
+- [2024/02] **Self-DC: When to Reason and When to Act? Self Divide-and-Conquer for Compositional Unknown Questions** *Hongru Wang et al. arXiv.* [[paper](https://arxiv.org/abs/2402.13514)]
   - TODO
-- [2023/03] **Art: Automatic multi-step reasoning and tool-use for large language models** *Bhargavi Paranjape et al. arXiv.* [[paper](https://arxiv.org/abs/2303.09014)]
+- [2025/02] **SMART: Self-Aware Agent for Tool Overuse Mitigations** *Cheng Qian et al. arXiv.* [[paper](https://arxiv.org/abs/2502.11435)]
+  - TODO
+- [2025/02] **Adaptive Tool Use in Large Language Models with Meta-Cognition Trigger** *Wenjun Li et al. arXiv.* [[paper](https://arxiv.org/abs/2502.12961)]
+  - TODO
+- [2025/03] **Agentic Knowledgeable Self-awareness** *Shuofei Qiao et al. ICLR 2025 Workshop.* [[paper](https://openreview.net/forum?id=PGdSLjYwMT)]
+  - TODO
+
+#### 2.1.2 Self-Correction 
+- [2023/03] **Self-refine: Iterative refinement with self-feedback** *Aman Madaan et al. NeurIPS 2023.* [[paper](https://arxiv.org/abs/2303.17651)]
   - TODO
 - [2023/03] **Reflexion: Language Agents with Verbal Reinforcement Learning** *Noah Shinn et al. NeurIPS 2023.* [[paper](https://arxiv.org/abs/2303.11366)]
   - TODO
-- [2023/05] **Tree of Thoughts: Deliberate Problem Solving with Large Language Models** *Shunyu Yao et al. NeurIPS 2023.* [[paper](https://arxiv.org/abs/2305.10601)]
+- [2024/03] **Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents** *Yifan Song et al. ACL 2024.* [[paper](https://arxiv.org/abs/2403.02502)]
   - TODO
-- [2023/05] **MultiTool-CoT: GPT-3 Can Use Multiple External Tools with Chain of Thought Prompting** *Tatsuro Inaba et al. ACL 2023.* [[paper](https://arxiv.org/abs/2305.16896)]
+- [2024/06] **Watch Every Step! LLM Agent Learning via Iterative Step-Level Process Refinement** *Weimin Xiong et al. EMNLP 2024.* [[paper](https://arxiv.org/abs/2406.11176)]
   - TODO
-- [2023/05] **ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language Models** *Zhipeng Chen et al. EMNLP 2023 Findings.* [[paper](https://arxiv.org/abs/2305.14323)]
+- [2025/01] **AgentRefine: Enhancing Agent Generalization through Refinement Tuning** *Dayuan Fu et al. ICLR 2025.* [[paper](https://arxiv.org/abs/2501.01702)]
   - TODO
-- [2023/10] **Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models** *Andy Zhou et al. ICML 2024.* [[paper](https://arxiv.org/abs/2310.04406)]
-  - TODO
-- [2023/10] **ToolChain*: Efficient Action Space Navigation in Large Language Models with A* Search** *Yuchen Zhuang et al. ICLR 2024.* [[paper](https://arxiv.org/abs/2310.13227)]
-  - TODO
-- [2024/11] **ReSpAct: Harmonizing Reasoning, Speaking, and Acting Towards Building Large Language Model-Based Conversational AI Agents** *YVardhan Dongre et al. arXiv 2024.* [[paper](https://arxiv.org/abs/2411.00927)]
+- [2025/01] **Agent-R: Training Language Model Agents to Reflect via Iterative Self-Training** *Siyu Yuan et al. arXiv 2025.* [[paper](https://arxiv.org/abs/2501.11425)]
   - TODO
 
 
-
-
+https://arxiv.org/abs/2501.01702
 ## 3. Fine-tuning
 - [2023/10] **AgentTuning: Enabling Generalized Agent Abilities for LLMs** *Aohan Zeng et al. arXiv.* [[paper](https://arxiv.org/abs/2310.12823)]
   - TODO
