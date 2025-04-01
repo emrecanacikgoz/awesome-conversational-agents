@@ -46,7 +46,7 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 - [2024/11] **ReSpAct: Harmonizing Reasoning, Speaking, and Acting Towards Building Large Language Model-Based Conversational AI Agents** *Vardhan Dongre et al. arXiv 2024.* [[paper](https://arxiv.org/abs/2411.00927)]
   - TODO
 
-## Monitor
+## 2. Monitor
 
 ### 2.1 Self Awareness
 
@@ -75,19 +75,58 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
   - TODO
 
 
-https://arxiv.org/abs/2501.01702
-## 3. Fine-tuning
-- [2023/10] **AgentTuning: Enabling Generalized Agent Abilities for LLMs** *Aohan Zeng et al. arXiv.* [[paper](https://arxiv.org/abs/2310.12823)]
+### 2.2 User & Interaction Monitoring
+
+#### 2.2.1 User State Tracking 
+- [2022/03] **In-Context Learning for Few-Shot Dialogue State Tracking** *Yushi Hu et al. EMNLP 2022 Findings.* [[paper](https://arxiv.org/abs/2203.08568)]
   - TODO
-- [2023/10] **FireAct: Toward Language Agent Fine-tuning** *Baian Chen et al. arXiv.* [[paper](https://arxiv.org/abs/2310.05915)]
+- [2023/10] **Towards LLM-driven Dialogue State Tracking** *Yujie Feng et al. EMNLP 2023.* [[paper](https://arxiv.org/abs/2310.14970)]
   - TODO
-- [2024/02] **Executable Code Actions Elicit Better LLM Agents** *Xingyao Wang et al. arXiv.* [[paper](https://arxiv.org/abs/2402.01030)]
+- [2023/04] **Are LLMs All You Need for Task-Oriented Dialogue?** *Vojtěch Hudeček et al. SIGDIAL 2023.* [[paper](https://arxiv.org/abs/2304.06556)]
   - TODO
-- [2024/03] **Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models** *Zehui Chen et al. arXiv.* [[paper](https://arxiv.org/abs/2403.12881)]
+- [2023/11] **Clarify When Necessary: Resolving Ambiguity Through Interaction with LMs** *Michael J.Q. Zhang et al. CoRR 2023.* [[paper](https://arxiv.org/abs/2311.09469)]
+  - TODO
+- [2024/02] **Large Language Models as Zero-shot Dialogue State Tracker through Function Calling** *Zekun Li et al. ACL 2024.* [[paper](https://arxiv.org/abs/2402.10466)]
+  - TODO
+- [2024/02] **Tell Me More! Towards Implicit User Intention Understanding of Language Model Driven Agents** *Cheng Qian et al. ACL 2024.* [[paper](https://arxiv.org/abs/2402.09205)]
+  - TODO
+- [2024/03] **STaR-GATE: Teaching Language Models to Ask Clarifying Questions** *Chinmaya Andukuri et al. COLM 2024.* [[paper](https://arxiv.org/abs/2403.19154)]
+  - TODO
+- [2024/04] **Unsupervised End-to-End Task-Oriented Dialogue with LLMs: The Power of the Noisy Channel** *Brendan King et al. EMNLP 2024.* [[paper](https://arxiv.org/abs/2404.15219)]
+  - TODO
+- [2024/09] **Learning to Ask: When LLM Agents Meet Unclear Instruction** *Wenxuan Wang et al. CoRR 2024.* [[paper](https://arxiv.org/abs/2409.00557)]
+  - TODO
+- [2025/02] **Can a Single Model Master Both Multi-turn Conversations and Tool Use? CoALM: A Unified Conversational Agentic Language Model** *Emre Can Acikgoz et al. arXiv 2025.* [[paper](https://arxiv.org/abs/2502.08820)]
+  - TODO
+- [2025/03] **AskToAct: Enhancing LLMs Tool Use via Self-Correcting Clarification** *Xuan Zhang et al. arXiv 2025.* [[paper](https://www.arxiv.org/abs/2503.01940)]
   - TODO
 
+#### 2.2.2 Personalization and Persona
+- [2022/10] **Personalized Dialogue Generation with Persona-Adaptive Attention** *Qiushi Huang et al. AAAI 2023.* [[paper](https://arxiv.org/abs/2210.15088)]
+  - TODO
+- [2023/12] **Beyond Candidates: Adaptive Dialogue Agent Utilizing Persona and Knowledge** *Jungwoo Lim et al. EMNLP 2023 Findings.* [[paper](https://aclanthology.org/2023.findings-emnlp.534/)]
+  - TODO
+- [2023/08] **CharacterChat: Learning towards Conversational AI with Personalized Social Support** *Quan Tu et al. arXiv 2023.* [[paper](https://arxiv.org/abs/2308.10278)]
+  - TODO
+- [2024/02] **Democratizing Large Language Models via Personalized Parameter-Efficient Fine-tuning** *Zhaoxuan Tan et al. CoRR 2023.* [[paper](https://arxiv.org/abs/2402.04401)]
+  - TODO
+- [2024/06] **Personalized Pieces: Efficient Personalized Large Language Models through Collaborative Efforts** *Zhaoxuan Tan et al. EMNLP 2024.* [[paper](https://arxiv.org/abs/2406.10471)]
+  - TODO
+
+#### 2.2.3 Emotion and Sentiment
+- [2018/11] **Towards Empathetic Open-domain Conversation Models: a New Benchmark and Dataset** *Hannah Rashkin et al. ACL 2019.* [[paper](https://arxiv.org/abs/1811.00207)]
+  - TODO
+- [2021/06] **Towards Emotional Support Dialog Systems** *Jungwoo Lim et al. ACL 201 Findings.* [[paper](https://arxiv.org/abs/2106.01144)]
+  - TODO
+- [2022/05] **D4: a Chinese Dialogue Dataset for Depression-Diagnosis-Oriented Chat** *Binwei Yao et al. EMNLP 2022.* [[paper](https://arxiv.org/abs/2205.11764)]
+  - TODO
+- [2023/08] **Reasoning before Responding: Integrating Commonsense-based Causality Explanation for Empathetic Response Generation** *Yahui Fu et al. SIGDIAL 2023.* [[paper](https://arxiv.org/abs/2308.00085)]
+  - TODO
+
+
+
 ## 4. Benchmarks
-- [2018/09] **HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering** *Zhilin Yang et al. arXiv.* [[paper](https://arxiv.org/abs/1809.09600)]
+- [2018/09] **HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering** *Zhilin Yang et al. ACL 2019.* [[paper](https://arxiv.org/abs/1809.09600)]
   - TODO
 - [2020/10] **ALFWorld: Aligning Text and Embodied Environments for Interactive Learning** *Mohit Shridhar et al. arXiv.* [[paper](https://arxiv.org/abs/2010.03768)]
   - TODO
