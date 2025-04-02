@@ -4,13 +4,30 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
 [![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/emrecanacikgoz/conversational-agents-survey/pulls)
 
-**[A Desideratum for Conversational Agents: Capabilities, Challenges, and Future Directions](https://emrecanacikgoz.github.io/CoALM/)**
+**[A Desideratum for Conversational Agents: Capabilities, Challenges, and Future Directions](https://emrecanacikgoz.github.io/CoALM/)**<br>
 [Emre Can Acikgoz](https://emrecanacikgoz.github.io/), [Cheng Qian](https://qiancheng0.github.io/), [Hongru Wang](https://rulegreen.github.io/), [Vardhan Dongre](https://vardhandongre.github.io/), [Xiusi Chen](https://xiusic.github.io/), [Heng Ji](https://blender.cs.illinois.edu/hengji.html), [Dilek Hakkani-Tür](https://siebelschool.illinois.edu/about/people/faculty/dilek), [Gokhan Tur](https://siebelschool.illinois.edu/about/people/faculty/gokhan)
 
 Recent advances in Large Language Models (LLMs) have propelled conversational AI from traditional dialogue systems into sophisticated agents capable of autonomous actions, contextual awareness, and multi-turn interactions with users. Yet, fundamental questions about their capabilities, limitations, and paths forward remain open. This survey paper presents a desideratum for next-generation Conversational Agents—*what has been achieved*, *what challenges persist*, and *what must be done for more scalable systems that approach human-level intelligence*. To that end, we systematically analyze LLM-driven Conversational Agents by organizing their capabilities into three primary dimensions: (i) **Reasoning**—logical, systematic thinking inspired by human intelligence for decision making, (ii) **Monitoring**—encompassing self-awareness and user interaction monitoring, and (iii) **Control**—focusing on tool utilization and policy following. Building upon this, we introduce a novel taxonomy by classifying recent work on Conversational Agents around our proposed desideratum. We identify critical research gaps and outline key directions, including **realistic evaluations**, **long-term multi-turn reasoning skills**, **self-evolution capabilities**, **collaborative and multi-agent task completion**, **personalization**, and **proactivity**. This work aims to provide a structured foundation, highlight existing limitations, and offer insights into potential future research directions for Conversational Agents, ultimately advancing progress toward Artificial General Intelligence (AGI).
 
 
 # 📝 Conversational Agent Papers
+- [Table of Content (ToC)](#table-of-content-toc)
+   - [1. Reasoning](#1-reasoning)
+     - [1.1 General Reasoning](#11-general-reasoning)
+     - [1.2 Agentic Prompting](#12-agentic-prompting)
+   - [2. Monitor](#2-monitor)
+     - [2.1 Self Awareness](#21-self-awareness)
+        - [2.1.1 Self-Impose Capability ](#211-self-impose-capability)
+        - [2.1.2 Self-Correction ](#212-self-correction)
+     - [2.2 User and Interaction Monitoring](#22-user-and-interaction-monitoring)
+        - [2.2.1 User State Tracking ](#221-user-state-tracking)
+        - [2.2.2 Personalization and Persona ](#222-personalization-and-persona)
+        - [2.2.3 Emotion and Sentiment ](#223-emotion-and-sentiment)
+   - [3. Control](#3-control)
+     - [3.1 Tool Utilization](#31-tool-utilization)
+        - [3.1.1 Tool Selection](#311-tool-selection)
+        - [3.1.2 Tool Execution](#312-tool-execution)
+     - [3.2 Policy Learning and Following](#32-policy-learning-and-following)
 
 ## 1. Reasoning
 
@@ -53,7 +70,7 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 - [2025/01] **Agent-R: Training Language Model Agents to Reflect via Iterative Self-Training** *Siyu Yuan et al. arXiv 2025.* [[paper](https://arxiv.org/abs/2501.11425) / [code](https://github.com/bytedance/Agent-R)]
  
  
-### 2.2 User & Interaction Monitoring
+### 2.2 User and Interaction Monitoring
 
 #### 2.2.1 User State Tracking 
 - [2022/03] **In-Context Learning for Few-Shot Dialogue State Tracking** *Yushi Hu et al. EMNLP 2022 Findings.* [[paper](https://arxiv.org/abs/2203.08568) / [code](https://github.com/Yushi-Hu/IC-DST)]
@@ -103,7 +120,7 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 - [2024/09] **ToolACE: Winning the Points of LLM Function Calling** *Weiwen Liu et al. ICLR 2025.* [[paper](https://arxiv.org/abs/2409.00920)]
 - [2025/02] **Can a Single Model Master Both Multi-turn Conversations and Tool Use? CoALM: A Unified Conversational Agentic Language Model** *Emre Can Acikgoz et al. arXiv 2025.* [[paper](https://arxiv.org/abs/2502.08820) / [code](https://github.com/oumi-ai/oumi/tree/main/configs/projects/coalm)]
 
-### 3.2 Policy Learning & Following
+### 3.2 Policy Learning and Following
 
 - [2016/04] **A Network-based End-to-End Trainable Task-oriented Dialogue System** *Tsung-Hsien Wen et al. ACL 2017.* [[paper](https://arxiv.org/abs/1604.04562)]
 - [2018/01] **Deep Dyna-Q: Integrating Planning for Task-Completion Dialogue Policy Learning** *Baolin Peng et al. ACL 2018.* [[paper](https://arxiv.org/abs/1801.06176) / [code](https://github.com/MiuLab/DDQ)]
