@@ -14,7 +14,7 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 
 
 
-# 📝 Taxonomy and Related Works
+## 📝 Taxonomy and Related Works
 ![teaser](assets/taxonomy.png)
 
 - [1. Reasoning](#1-🧠-reasoning)
