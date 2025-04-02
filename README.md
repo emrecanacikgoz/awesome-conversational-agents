@@ -12,11 +12,11 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 ![teaser](assets/taxonomy.png)
 
 
-# 📝 Conversational Agent Papers
-- [1. Reasoning](#1-reasoning)
+# 📝 Taxonomy and Related Works
+- [1. Reasoning](#1-🧠-reasoning)
   - [1.1 General Reasoning](#11-general-reasoning)
   - [1.2 Agentic Prompting](#12-agentic-prompting)
-- [2. Monitor](#2-monitor)
+- [2. Monitor](#2-🔎-monitor)
   - [2.1 Self Awareness](#21-self-awareness)
     - [2.1.1 Self-Impose Capability ](#211-self-impose-capability)
     - [2.1.2 Self-Correction ](#212-self-correction)
@@ -24,13 +24,13 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
     - [2.2.1 User State Tracking ](#221-user-state-tracking)
     - [2.2.2 Personalization and Persona ](#222-personalization-and-persona)
     - [2.2.3 Emotion and Sentiment ](#223-emotion-and-sentiment)
-- [3. Control](#3-control)
+- [3. Control](#3-🛠️-control)
   - [3.1 Tool Utilization](#31-tool-utilization)
     - [3.1.1 Tool Selection](#311-tool-selection)
     - [3.1.2 Tool Execution](#312-tool-execution)
   - [3.2 Policy Learning and Following](#32-policy-learning-and-following)
 
-## 1. Reasoning
+## 1. 🧠 Reasoning
 
 ### 1.1 General Reasoning
 - [2022/01] **Chain-of-thought prompting elicits reasoning in large language models** *Jason Wei et al. NeurIPS 2022.* [[paper](https://arxiv.org/abs/2201.11903)]
@@ -51,7 +51,7 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 - [2024/11] **ReSpAct: Harmonizing Reasoning, Speaking, and Acting Towards Building Large Language Model-Based Conversational AI Agents** *Vardhan Dongre et al. arXiv 2024.* [[paper](https://arxiv.org/abs/2411.00927) / [code](https://github.com/vardhandongre/Respact)]
 
 
-## 2. Monitor
+## 2. 🔎 Monitor
 
 ### 2.1 Self Awareness
 
@@ -100,7 +100,7 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 - [2023/08] **Reasoning before Responding: Integrating Commonsense-based Causality Explanation for Empathetic Response Generation** *Yahui Fu et al. SIGDIAL 2023.* [[paper](https://arxiv.org/abs/2308.00085)]
 
  
-## 3. Control
+## 3. 🛠️ Control
 
 ### 3.1 Tool Utilization
 
@@ -131,6 +131,21 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 - [2024/06] **FlowBench: Revisiting and Benchmarking Workflow-Guided Planning for LLM-based Agents** *Ruixuan Xiao et al. EMNLP 2024 Findings.* [[paper](https://arxiv.org/abs/2406.14884) / [code](https://github.com/Justherozen/FlowBench)]
 - [2024/08] **Rethinking Task-Oriented Dialogue Systems: From Complex Modularity to Zero-Shot Autonomous Agent** *Heng-Da Xu et al. ACL 2024.* [[paper](https://aclanthology.org/2024.acl-long.152/) / [code](https://github.com/DaDaMrX/AutoTOD)]
 
+## Citation
+If you find this repository useful in your research or projects, please cite our official paper:
+```bibtex
+@misc{acikgoz2025desideratum,
+      title={A Desideratum for Conversational Agents: Capabilities, Challenges, and Future Directions}, 
+      author={Emre Can Acikgoz and Cheng Qian and Hongru Wang and Vardhan Dongre and Xiusi Chen and Heng Ji and Dilek Hakkani-Tür and Gokhan Tut},
+      year={2025},
+      eprint={2305.02427},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+```
+
+#### Contact
+For any inquires please don't hesitate to get in touch with us: acikgoz2@illinois.edu, chengq9@illinois.edu, hongru2@illinois.edu.
 <!-- ## 5. Surveys
 - [2023/03] **A Survey of Large Language Models** *Wayne Xin Zhao et al. arXiv.* [[paper](https://arxiv.org/abs/2303.18223)]
 
