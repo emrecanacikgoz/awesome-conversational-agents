@@ -1,4 +1,4 @@
-# 💫 Awsome Conversational Agents
+# 💫 Awesome Conversational Agents
 [![Paper](https://img.shields.io/badge/arXiv-Paper-red.svg)](https://arxiv.org/abs/2502.08820) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/emrecanacikgoz/conversational-agents-survey/pulls)
 
 
@@ -135,12 +135,33 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 - [2024/06] **FlowBench: Revisiting and Benchmarking Workflow-Guided Planning for LLM-based Agents** *Ruixuan Xiao et al. EMNLP 2024 Findings.* [[paper](https://arxiv.org/abs/2406.14884) / [code](https://github.com/Justherozen/FlowBench)]
 - [2024/08] **Rethinking Task-Oriented Dialogue Systems: From Complex Modularity to Zero-Shot Autonomous Agent** *Heng-Da Xu et al. ACL 2024.* [[paper](https://aclanthology.org/2024.acl-long.152/) / [code](https://github.com/DaDaMrX/AutoTOD)]
 
+# Usefull Evaluation Benchmarks
+Although evaluating agents is beyond the scope of our paper, we would like to share several valuable resources for evaluating Conversational Agents, specifically on: (i) Tool Learning and (ii) Task Completion:
+
+## 1. Tool Learning
+- [2023/04] **API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs** *Yujia Qin et al. EMNLP 2023.* [[paper](https://arxiv.org/abs/2304.08244) / [code](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/api-bank)]
+- [2023/06] **ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases** *Qiaoyu Tanget al. arXiv 2023.* [[paper](https://arxiv.org/abs/2306.05301) / [code](https://github.com/tangqiaoyu/ToolAlpaca)]
+- [2023/07] **ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs** *Yujia Qin et al. ICLR 2024.* [[paper](https://arxiv.org/abs/2307.16789) / [code](https://github.com/OpenBMB/ToolBench/tree/master/toolbench/tooleval) / [Leaderboard](https://openbmb.github.io/ToolBench/)]
+- [2023/10] **NexusRaven: a commercially-permissive Language Model for function calling** *Venkat Krishna Srinivasan et al. INeurIPS 2023 Instruction Workshop.* [[paper](https://openreview.net/forum?id=Md6RUrGz67) / [code](https://github.com/nexusflowai/NexusRaven?tab=readme-ov-file#evaluation)]
+- [2024/05] **Seal-Tools: Self-Instruct Tool Learning Dataset for Agent Tuning and Detailed Benchmark** *Mengsong Wu al. NLPCC 2024.* [[paper](https://arxiv.org/abs/2405.08355) / [code](https://github.com/fairyshine/Seal-Tools)]
+- [2024/09] **BFCL V3: Multi-Turn & Multi-Step Function Calling Evaluation** *Huanzhi Mao al. Blog 2024.* [[blog](https://gorilla.cs.berkeley.edu/blogs/13_bfcl_v3_multi_turn.html) / [code](https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard) / [Leaderboard](https://gorilla.cs.berkeley.edu/leaderboard.html)]
+
+## 2. Task Completion
+- [2020/10] **ALFWorld: Aligning Text and Embodied Environments for Interactive Learning** *Mohit Shridhar et al. ICLR 2021.* [[paper](https://arxiv.org/abs/2010.03768) / [code](https://github.com/alfworld/alfworld)]
+- [2022/03] **ScienceWorld: Is your Agent Smarter than a 5th Grader?** *Ruoyao Wang et al. EMNLP 2022.* [[paper](https://arxiv.org/abs/2203.07540) / [code](https://github.com/allenai/ScienceWorld)]
+- [2022/07] **WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents?** *Shunyu Yao et al. NeurIPS 2022.* [[paper](https://arxiv.org/abs/2207.01206) / [code](https://github.com/princeton-nlp/WebShop)]
+- [2024/01] **AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents** *Chang Ma et al. ICLR 2024.* [[paper](https://arxiv.org/abs/2401.13178) / [code](https://github.com/hkust-nlp/AgentBoard) / [Leaderboard](https://hkust-nlp.github.io/agentboard/static/leaderboard.html)]
+- [2024/02] **TravelPlanner: A Benchmark for Real-World Planning with Language Agents** *Jian Xie et al. ICML 2024.* [[paper](https://arxiv.org/abs/2402.01622) / [code](https://github.com/OSU-NLP-Group/TravelPlanner) / [Leaderboard](https://huggingface.co/spaces/osunlp/TravelPlannerLeaderboard)]
+- [2024/06] **τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains** *Shunyu Yao et al. ICLR 2025.* [[paper](https://arxiv.org/abs/2406.12045) / [code](https://github.com/sierra-research/tau-bench)]
+
+
+
 ## Citation
 If you find this repository useful in your research or projects, please cite our official paper:
 ```bibtex
 @misc{acikgoz2025desideratum,
       title={A Desideratum for Conversational Agents: Capabilities, Challenges, and Future Directions}, 
-      author={Emre Can Acikgoz and Cheng Qian and Hongru Wang and Vardhan Dongre and Xiusi Chen and Heng Ji and Dilek Hakkani-Tür and Gokhan Tut},
+      author={Emre Can Acikgoz and Cheng Qian and Hongru Wang and Vardhan Dongre and Xiusi Chen and Heng Ji and Dilek Hakkani-Tür and Gokhan Tur},
       year={2025},
       eprint={2305.02427},
       archivePrefix={arXiv},
