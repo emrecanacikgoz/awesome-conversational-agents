@@ -19,7 +19,7 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 
 - [1. Reasoning](#1-🧠-reasoning)
   - [1.1 General Reasoning](#11-general-reasoning)
-  - [1.2 Agentic Prompting](#12-agentic-prompting)
+  - [1.2 Agentic Reasoning](#12-agentic-reasoning)
 - [2. Monitor](#2-🔎-monitor)
   - [2.1 Self Awareness](#21-self-awareness)
     - [2.1.1 Self-Impose Capability ](#211-self-impose-capability)
@@ -39,11 +39,14 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 ### 1.1 General Reasoning
 - [2022/01] **Chain-of-thought prompting elicits reasoning in large language models** *Jason Wei et al. NeurIPS 2022.* [[paper](https://arxiv.org/abs/2201.11903)]
 - [2022/03] **Self-Consistency Improves Chain of Thought Reasoning in Language Models** *Xuezhi Wang et al. ICLR 2023.* [[paper](https://arxiv.org/abs/2203.11171)]
+- [2022/05] **Least-to-Most Prompting Enables Complex Reasoning in Large Language Models** *Denny Zhou et al. ICLR 2023.* [[paper](https://arxiv.org/abs/2205.10625)]
+- [2022/05] **Large Language Models are Zero-Shot Reasoners** *Takeshi Kojima et al. NeurIPS 2022.* [[paper](https://arxiv.org/abs/2205.11916)]
+- [2022/11] **PAL: Program-aided Language Models** *Luyu Gao et al. ICML 2023.* [[paper](https://arxiv.org/abs/2211.10435) / [code](https://github.com/reasoning-machines/pal)]
 - [2023/03] **Self-refine: Iterative refinement with self-feedback** *Aman Madaan et al. NeurIPS 2023.* [[paper](https://arxiv.org/abs/2303.17651) / [code](https://github.com/madaan/self-refine)]
 - [2023/08] **Graph of thoughts: Solving elaborate problems with large language models** *Maciej Besta et al. AAAI 2024.* [[paper](https://arxiv.org/abs/2308.09687) / [code](https://github.com/spcl/graph-of-thoughts)]
 - [2023/08] **Cue-CoT: Chain-of-thought Prompting for Responding to In-depth Dialogue Questions with LLMs** *Hongru Wang et al. EMNLP 2023 Findings.* [[paper](https://arxiv.org/abs/2305.11792) / [code](https://github.com/ruleGreen/Cue-CoT)]
 
-### 1.2 Agentic Prompting
+### 1.2 Agentic Reasoning
 - [2022/10] **ReAct: Synergizing Reasoning and Acting in Language Models** *Shunyu Yao et al. ICLR 2023.* [[paper](https://arxiv.org/abs/2210.03629) / [code](https://github.com/ysymyth/ReAct)]
 - [2023/03] **Art: Automatic multi-step reasoning and tool-use for large language models** *Bhargavi Paranjape et al. arXiv.* [[paper](https://arxiv.org/abs/2303.09014) / [code](https://github.com/bhargaviparanjape/language-programmes/)]
 - [2023/03] **Reflexion: Language Agents with Verbal Reinforcement Learning** *Noah Shinn et al. NeurIPS 2023.* [[paper](https://arxiv.org/abs/2303.11366) / [code](https://github.com/noahshinn/reflexion)]
@@ -99,7 +102,7 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 
 #### 2.2.3 Emotion and Sentiment
 - [2018/11] **Towards Empathetic Open-domain Conversation Models: a New Benchmark and Dataset** *Hannah Rashkin et al. ACL 2019.* [[paper](https://arxiv.org/abs/1811.00207) / [code](https://github.com/facebookresearch/EmpatheticDialogues)]
-- [2021/06] **Towards Emotional Support Dialog Systems** *Jungwoo Lim et al. ACL 201 Findings.* [[paper](https://arxiv.org/abs/2106.01144) / [code](https://github.com/thu-coai/Emotional-Support-Conversation)]
+- [2021/06] **Towards Emotional Support Dialog Systems** *Jungwoo Lim et al. ACL 2021 Findings.* [[paper](https://arxiv.org/abs/2106.01144) / [code](https://github.com/thu-coai/Emotional-Support-Conversation)]
 - [2022/05] **D4: a Chinese Dialogue Dataset for Depression-Diagnosis-Oriented Chat** *Binwei Yao et al. EMNLP 2022.* [[paper](https://arxiv.org/abs/2205.11764) / [code](https://github.com/BigBinnie/D4_baseline)]
 - [2023/08] **Reasoning before Responding: Integrating Commonsense-based Causality Explanation for Empathetic Response Generation** *Yahui Fu et al. SIGDIAL 2023.* [[paper](https://arxiv.org/abs/2308.00085)]
 
@@ -112,16 +115,21 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 - [2022/05] **TALM: Tool Augmented Language Models** *Aaron Parisi et al. arXiv.* [[paper](https://arxiv.org/abs/2205.12255)]
 - [2023/02] **Toolformer: Language Models Can Teach Themselves to Use Tools** *Timo Schick et al. NeurIPS 2023.* [[paper](https://arxiv.org/abs/2302.04761)]
 - [2023/05] **Gorilla: Large Language Model Connected with Massive APIs** *Shishir G. Patil et al. NeurIPS 2024.* [[paper](https://arxiv.org/abs/2305.15334) / [code](https://github.com/ShishirPatil/gorilla)]
-- [2023/06] **ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases** *Qiaoyu Tang et al. arXiv.* [[paper](https://arxiv.org/abs/2306.05301) / [code](https://github.com/tangqiaoyu/ToolAlpaca)]
 - [2023/05] **CREATOR: Tool Creation for Disentangling Abstract and Concrete Reasoning of Large Language Models** *Cheng Qian et al. EMNLP 2023 Findings.* [[paper](https://arxiv.org/abs/2305.14318) / [code](https://github.com/qiancheng0/CREATOR)]
 - [2023/05] **Large Language Models as Tool Makers** *Tianle Cai et al. ICLR 2024.* [[paper](https://arxiv.org/abs/2305.17126) / [code](https://github.com/ctlllll/LLM-ToolMaker)]
+- [2024/07] **Granite-Function Calling Model: Introducing Function Calling Abilities via Multi-task Learning of Granular Tasks** *Ibrahim Abdelaziz et al. EMNLP 2024.* [[paper](https://arxiv.org/abs/2407.00121)]
 - [2024/09] **xLAM: A Family of Large Action Models to Empower AI Agent Systems** *Jianguo Zhang et al. arXiv.* [[paper](https://arxiv.org/abs/2409.03215) / [code](https://github.com/SalesforceAIResearch/xLAM)]
 - [2024/10] **Hammer: Robust Function-Calling for On-Device Language Models via Function Masking** *Qiqiang Lin et al. ICLR 2025.* [[paper](https://arxiv.org/abs/2410.04587) / [code](https://github.com/MadeAgents/Hammer)]
 
 #### 3.1.2 Tool Execution
+- [2023/05] **ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings** *Shibo Hao et al. NeurIPS 2023.* [[paper](https://arxiv.org/abs/2305.11554) / [code](https://github.com/Ber666/ToolkenGPT)]
+- [2023/03] **HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face** *Yongliang Shen et al. NeurIPS 2023.* [[paper](https://arxiv.org/abs/2303.17580) / [code](https://github.com/microsoft/JARVIS)]
+- [2023/06] **ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases** *Qiaoyu Tang et al. arXiv.* [[paper](https://arxiv.org/abs/2306.05301) / [code](https://github.com/tangqiaoyu/ToolAlpaca)]
+- [2023/07] **ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIse** *Yujia Qin et al. NeurIPS 2023.* [[paper](https://arxiv.org/abs/2307.16789) / [code](https://github.com/OpenBMB/ToolBench)]
 - [2023/10] **AgentTuning: Enabling Generalized Agent Abilities for LLMs** *Aohan Zeng et al. ACL 2024 Findings.* [[paper](https://arxiv.org/abs/2310.12823) / [code](https://github.com/THUDM/AgentTuning)]
-- [2024/03] **Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models** *Zehui Chen et al. ACL 2024 Findings.* [[paper](https://arxiv.org/abs/2403.12881) / [code](https://github.com/InternLM/Agent-FLAN)]
 - [2024/02] **Large Language Models as Zero-shot Dialogue State Tracker through Function Calling** *Zekun Li et al. ACL 2024.* [[paper](https://arxiv.org/abs/2402.10466) / [code](https://github.com/facebookresearch/FnCTOD)]
+- [2024/02] **Executable Code Actions Elicit Better LLM Agents** *Xingyao Wang et al. ACL 2024.* [[paper](https://arxiv.org/abs/2402.01030) / [code](https://github.com/xingyaoww/code-act)]
+- [2024/03] **Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models** *Zehui Chen et al. ACL 2024 Findings.* [[paper](https://arxiv.org/abs/2403.12881) / [code](https://github.com/InternLM/Agent-FLAN)]
 - [2024/09] **ToolACE: Winning the Points of LLM Function Calling** *Weiwen Liu et al. ICLR 2025.* [[paper](https://arxiv.org/abs/2409.00920)]
 - [2025/02] **Can a Single Model Master Both Multi-turn Conversations and Tool Use? CoALM: A Unified Conversational Agentic Language Model** *Emre Can Acikgoz et al. arXiv 2025.* [[paper](https://arxiv.org/abs/2502.08820) / [code](https://github.com/oumi-ai/oumi/tree/main/configs/projects/coalm)]
 
@@ -155,7 +163,6 @@ Although evaluating agents is beyond the scope of our paper, we would like to sh
 - [2024/06] **τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains** *Shunyu Yao et al. ICLR 2025.* [[paper](https://arxiv.org/abs/2406.12045) / [code](https://github.com/sierra-research/tau-bench)]
 
 
-
 ## Citation
 If you find this repository useful in your research or projects, please cite our official paper:
 ```bibtex
@@ -169,7 +176,11 @@ If you find this repository useful in your research or projects, please cite our
 }
 ```
 
-#### Contact
+### Contributions 🤝
+This is an actively maintained Conversational Agent resource repository by the authors. Contributions are always welcome—feel free to submit a pull request!
+
+
+### Contact
 For any inquiries, feel free to contact us at: acikgoz2@illinois.edu, chengq9@illinois.edu, hongru2@illinois.edu.
 <!-- ## 5. Surveys
 - [2023/03] **A Survey of Large Language Models** *Wayne Xin Zhao et al. arXiv.* [[paper](https://arxiv.org/abs/2303.18223)]
