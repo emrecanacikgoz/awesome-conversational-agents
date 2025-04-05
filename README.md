@@ -181,8 +181,8 @@ If you find this repository useful in your research or projects, please cite our
 }
 ```
 
-## Contributions 🤝
-This is an actively maintained Conversational Agent resource repository by the authors. Contributions are always welcome—feel free to submit a pull request!
+## 🤝 Contributions
+This is an actively maintained Conversational Agent resource repository by the authors. Contributions are always welcome, feel free to submit a PR!
 
 
 ## Contact
