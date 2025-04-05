@@ -1,8 +1,8 @@
 # 💫 Awesome Conversational Agents
-[![Paper](https://img.shields.io/badge/arXiv-Paper-red.svg)](https://arxiv.org/abs/2502.08820) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/emrecanacikgoz/conversational-agents-survey/pulls)
+[![Paper](https://img.shields.io/badge/arXiv-Paper-red.svg)](https://arxiv.org/abs/2502.08820) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/emrecanacikgoz/conversational-agents-survey/pulls)<br>
+This repository is a curated and actively maintained collection of papers on Conversational Agents, most of which are discussed in our paper. We always welcome community contributions through PRs!
 
-
-
+---
 
 **[A Desideratum for Conversational Agents: Capabilities, Challenges, and Future Directions](https://emrecanacikgoz.github.io/CoALM/)**<br>
 [Emre Can Acikgoz](https://emrecanacikgoz.github.io/), [Cheng Qian](https://qiancheng0.github.io/), [Hongru Wang](https://rulegreen.github.io/), [Vardhan Dongre](https://vardhandongre.github.io/), [Xiusi Chen](https://xiusic.github.io/), [Heng Ji](https://blender.cs.illinois.edu/hengji.html), [Dilek Hakkani-Tür](https://siebelschool.illinois.edu/about/people/faculty/dilek), [Gokhan Tur](https://siebelschool.illinois.edu/about/people/faculty/gokhan)
@@ -10,17 +10,14 @@
 ![teaser](assets/conv-agent.png)
 
 Recent advances in Large Language Models (LLMs) have propelled conversational AI from traditional dialogue systems into sophisticated agents capable of autonomous actions, contextual awareness, and multi-turn interactions with users. Yet, fundamental questions about their capabilities, limitations, and paths forward remain open. This survey paper presents a desideratum for next-generation Conversational Agents—*what has been achieved*, *what challenges persist*, and *what must be done for more scalable systems that approach human-level intelligence*. To that end, we systematically analyze LLM-driven Conversational Agents by organizing their capabilities into three primary dimensions: (i) **Reasoning**—logical, systematic thinking inspired by human intelligence for decision making, (ii) **Monitoring**—encompassing self-awareness and user interaction monitoring, and (iii) **Control**—focusing on tool utilization and policy following. Building upon this, we introduce a novel taxonomy by classifying recent work on Conversational Agents around our proposed desideratum. We identify critical research gaps and outline key directions, including **realistic evaluations**, **long-term multi-turn reasoning skills**, **self-evolution capabilities**, **collaborative and multi-agent task completion**, **personalization**, and **proactivity**. This work aims to provide a structured foundation, highlight existing limitations, and offer insights into potential future research directions for Conversational Agents, ultimately advancing progress toward Artificial General Intelligence (AGI).
-
-
-
-
+---
 ## 📝 Taxonomy and Related Works
 ![teaser](assets/taxonomy.png)
 
-- [1. Reasoning](#1-🧠-reasoning)
+- [1. 🧠 Reasoning](#1-🧠-reasoning)
   - [1.1 General Reasoning](#11-general-reasoning)
   - [1.2 Agentic Reasoning](#12-agentic-reasoning)
-- [2. Monitor](#2-🔎-monitor)
+- [2. 🔎 Monitor](#2-🔎-monitor)
   - [2.1 Self Awareness](#21-self-awareness)
     - [2.1.1 Self-Impose Capability ](#211-self-impose-capability)
     - [2.1.2 Self-Correction ](#212-self-correction)
@@ -28,7 +25,7 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
     - [2.2.1 User State Tracking ](#221-user-state-tracking)
     - [2.2.2 Personalization and Persona ](#222-personalization-and-persona)
     - [2.2.3 Emotion and Sentiment ](#223-emotion-and-sentiment)
-- [3. Control](#3-🛠️-control)
+- [3. 🛠️ Control](#3-🛠️-control)
   - [3.1 Tool Utilization](#31-tool-utilization)
     - [3.1.1 Tool Selection](#311-tool-selection)
     - [3.1.2 Tool Execution](#312-tool-execution)
@@ -82,8 +79,10 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 
 #### 2.2.1 User State Tracking 
 - [2022/03] **In-Context Learning for Few-Shot Dialogue State Tracking** *Yushi Hu et al. EMNLP 2022 Findings.* [[paper](https://arxiv.org/abs/2203.08568) / [code](https://github.com/Yushi-Hu/IC-DST)]
-- [2023/10] **Towards LLM-driven Dialogue State Tracking** *Yujie Feng et al. EMNLP 2023.* [[paper](https://arxiv.org/abs/2310.14970) / [code](https://github.com/WoodScene/LDST)]
 - [2023/04] **Are LLMs All You Need for Task-Oriented Dialogue?** *Vojtěch Hudeček et al. SIGDIAL 2023.* [[paper](https://arxiv.org/abs/2304.06556) / [code](https://github.com/vojtsek/to-llm-bot)]
+- [2023/06] **ChatGPT for Zero-shot Dialogue State Tracking: A Solution or an Opportunity?** *Michael Heck et al. ACL 2023.* [[paper](https://arxiv.org/abs/2306.01386)]
+- [2023/10] **InstructTODS: Large Language Models for End-to-End Task-Oriented Dialogue Systems** *Willy Chung et al. ACL 2023 Natural Language Interfaces Workshop.* [[paper](https://arxiv.org/abs/2310.08885) / [code](https://github.com/WillyHC22/InstructTODS/)]
+- [2023/10] **Towards LLM-driven Dialogue State Tracking** *Yujie Feng et al. EMNLP 2023.* [[paper](https://arxiv.org/abs/2310.14970) / [code](https://github.com/WoodScene/LDST)]
 - [2023/11] **Clarify When Necessary: Resolving Ambiguity Through Interaction with LMs** *Michael J.Q. Zhang et al. CoRR 2023.* [[paper](https://arxiv.org/abs/2311.09469)]
 - [2024/02] **Large Language Models as Zero-shot Dialogue State Tracker through Function Calling** *Zekun Li et al. ACL 2024.* [[paper](https://arxiv.org/abs/2402.10466) / [code](https://github.com/facebookresearch/FnCTOD)]
 - [2024/02] **Tell Me More! Towards Implicit User Intention Understanding of Language Model Driven Agents** *Cheng Qian et al. ACL 2024.* [[paper](https://arxiv.org/abs/2402.09205) / [code](https://github.com/OpenBMB/Tell_Me_More)]
