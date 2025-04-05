@@ -2,15 +2,16 @@
 [![Paper](https://img.shields.io/badge/arXiv-Paper-red.svg)](https://arxiv.org/abs/2502.08820) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/emrecanacikgoz/conversational-agents-survey/pulls)<br>
 This repository is a curated and actively maintained collection of papers on Conversational Agents, most of which are discussed in our paper. We always welcome community contributions through PRs!
 
----
-
 **[A Desideratum for Conversational Agents: Capabilities, Challenges, and Future Directions](https://emrecanacikgoz.github.io/CoALM/)**<br>
+---
 [Emre Can Acikgoz](https://emrecanacikgoz.github.io/), [Cheng Qian](https://qiancheng0.github.io/), [Hongru Wang](https://rulegreen.github.io/), [Vardhan Dongre](https://vardhandongre.github.io/), [Xiusi Chen](https://xiusic.github.io/), [Heng Ji](https://blender.cs.illinois.edu/hengji.html), [Dilek Hakkani-Tür](https://siebelschool.illinois.edu/about/people/faculty/dilek), [Gokhan Tur](https://siebelschool.illinois.edu/about/people/faculty/gokhan)
 
 ![teaser](assets/conv-agent.png)
 
 Recent advances in Large Language Models (LLMs) have propelled conversational AI from traditional dialogue systems into sophisticated agents capable of autonomous actions, contextual awareness, and multi-turn interactions with users. Yet, fundamental questions about their capabilities, limitations, and paths forward remain open. This survey paper presents a desideratum for next-generation Conversational Agents—*what has been achieved*, *what challenges persist*, and *what must be done for more scalable systems that approach human-level intelligence*. To that end, we systematically analyze LLM-driven Conversational Agents by organizing their capabilities into three primary dimensions: (i) **Reasoning**—logical, systematic thinking inspired by human intelligence for decision making, (ii) **Monitoring**—encompassing self-awareness and user interaction monitoring, and (iii) **Control**—focusing on tool utilization and policy following. Building upon this, we introduce a novel taxonomy by classifying recent work on Conversational Agents around our proposed desideratum. We identify critical research gaps and outline key directions, including **realistic evaluations**, **long-term multi-turn reasoning skills**, **self-evolution capabilities**, **collaborative and multi-agent task completion**, **personalization**, and **proactivity**. This work aims to provide a structured foundation, highlight existing limitations, and offer insights into potential future research directions for Conversational Agents, ultimately advancing progress toward Artificial General Intelligence (AGI).
+
 ---
+
 ## 📝 Taxonomy and Related Works
 ![teaser](assets/taxonomy.png)
 
@@ -30,6 +31,8 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
     - [3.1.1 Tool Selection](#311-tool-selection)
     - [3.1.2 Tool Execution](#312-tool-execution)
   - [3.2 Policy Learning and Following](#32-policy-learning-and-following)
+
+---
 
 ## 1. 🧠 Reasoning
 
@@ -142,6 +145,8 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 - [2024/06] **FlowBench: Revisiting and Benchmarking Workflow-Guided Planning for LLM-based Agents** *Ruixuan Xiao et al. EMNLP 2024 Findings.* [[paper](https://arxiv.org/abs/2406.14884) / [code](https://github.com/Justherozen/FlowBench)]
 - [2024/08] **Rethinking Task-Oriented Dialogue Systems: From Complex Modularity to Zero-Shot Autonomous Agent** *Heng-Da Xu et al. ACL 2024.* [[paper](https://aclanthology.org/2024.acl-long.152/) / [code](https://github.com/DaDaMrX/AutoTOD)]
 
+---
+
 # Usefull Evaluation Benchmarks
 Although evaluating agents is beyond the scope of our paper, we would like to share several valuable resources for evaluating Conversational Agents, specifically on: (i) Tool Learning and (ii) Task Completion:
 
@@ -161,6 +166,7 @@ Although evaluating agents is beyond the scope of our paper, we would like to sh
 - [2024/02] **TravelPlanner: A Benchmark for Real-World Planning with Language Agents** *Jian Xie et al. ICML 2024.* [[paper](https://arxiv.org/abs/2402.01622) / [code](https://github.com/OSU-NLP-Group/TravelPlanner) / [Leaderboard](https://huggingface.co/spaces/osunlp/TravelPlannerLeaderboard)]
 - [2024/06] **τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains** *Shunyu Yao et al. ICLR 2025.* [[paper](https://arxiv.org/abs/2406.12045) / [code](https://github.com/sierra-research/tau-bench)]
 
+---
 
 ## Citation
 If you find this repository useful in your research or projects, please cite our official paper:
@@ -175,11 +181,11 @@ If you find this repository useful in your research or projects, please cite our
 }
 ```
 
-### Contributions 🤝
+## Contributions 🤝
 This is an actively maintained Conversational Agent resource repository by the authors. Contributions are always welcome—feel free to submit a pull request!
 
 
-### Contact
+## Contact
 For any inquiries, feel free to contact us at: acikgoz2@illinois.edu, chengq9@illinois.edu, hongru2@illinois.edu.
 <!-- ## 5. Surveys
 - [2023/03] **A Survey of Large Language Models** *Wayne Xin Zhao et al. arXiv.* [[paper](https://arxiv.org/abs/2303.18223)]
