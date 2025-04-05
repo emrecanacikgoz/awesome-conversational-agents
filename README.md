@@ -54,7 +54,7 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 - [2023/05] **MultiTool-CoT: GPT-3 Can Use Multiple External Tools with Chain of Thought Prompting** *Tatsuro Inaba et al. ACL 2023.* [[paper](https://arxiv.org/abs/2305.16896) / [code](https://github.com/tatsuropfgt/MultiTool-CoT)]
 - [2023/05] **ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language Models** *Zhipeng Chen et al. EMNLP 2023 Findings.* [[paper](https://arxiv.org/abs/2305.14323) / [code](https://github.com/RUCAIBox/ChatCoT)]
 - [2023/10] **Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models** *Andy Zhou et al. ICML 2024.* [[paper](https://arxiv.org/abs/2310.04406) / [code](https://github.com/lapisrocks/LanguageAgentTreeSearch)]
-- [2023/10] **ToolChain: Efficient Action Space Navigation in Large Language Models with A* Search** *Yuchen Zhuang et al. ICLR 2024.* [[paper](https://arxiv.org/abs/2310.13227)]
+- [2023/10] **ToolChain: Efficient Action Space Navigation in Large Language Models with A Search** *Yuchen Zhuang et al. ICLR 2024.* [[paper](https://arxiv.org/abs/2310.13227)]
 - [2024/11] **ReSpAct: Harmonizing Reasoning, Speaking, and Acting Towards Building Large Language Model-Based Conversational AI Agents** *Vardhan Dongre et al. arXiv 2024.* [[paper](https://arxiv.org/abs/2411.00927) / [code](https://github.com/vardhandongre/Respact)]
 
 
