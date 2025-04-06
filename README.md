@@ -31,6 +31,7 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
     - [3.1.1 Tool Selection](#311-tool-selection)
     - [3.1.2 Tool Execution](#312-tool-execution)
   - [3.2 Policy Learning and Following](#32-policy-learning-and-following)
+- [📊 Appendix: Evaluation of Conversational Agents](#📊-appendix-evaluation-of-conversational-agents)
 
 ---
 
@@ -152,29 +153,35 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 
 ---
 
-## 📊 Usefull Evaluation Benchmarks 
-Although evaluating agents is beyond the scope of our paper, we would like to share several valuable resources for evaluating Conversational Agents, specifically on: (i) Tool Learning and (ii) Task Completion:
+## 📊 Appendix: Evaluation of Conversational Agents
+Although evaluating agents is beyond the scope of our paper, we include supplementary materials in the appendix that focus on the evaluation of Conversational Agents, specifically covering: (i) Tool Utilization Benchmarks and (ii) Conversational Task Completion Benchmarks.
 
-### 1. Tool Learning
+### 1. Tool Utilization Benchmarks
 - [2023/04] **API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs.** *Yujia Qin et al. EMNLP 2023.* [[paper](https://arxiv.org/abs/2304.08244) / [code](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/api-bank)]
 - [2023/06] **ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases.** *Qiaoyu Tanget al. arXiv 2023.* [[paper](https://arxiv.org/abs/2306.05301) / [code](https://github.com/tangqiaoyu/ToolAlpaca)]
-- [2023/07] **ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs.** *Yujia Qin et al. ICLR 2024.* [[paper](https://arxiv.org/abs/2307.16789) / [code](https://github.com/OpenBMB/ToolBench/tree/master/toolbench/tooleval) / [Leaderboard](https://openbmb.github.io/ToolBench/)]
+- [2023/07] **ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs.** *Yujia Qin et al. ICLR 2024.* [[paper](https://arxiv.org/abs/2307.16789) / [code](https://github.com/OpenBMB/ToolBench/tree/master/toolbench/tooleval) / [leaderboard](https://openbmb.github.io/ToolBench/)]
 - [2023/10] **NexusRaven: a commercially-permissive Language Model for function calling.** *Venkat Krishna Srinivasan et al. INeurIPS 2023 Instruction Workshop.* [[paper](https://openreview.net/forum?id=Md6RUrGz67) / [code](https://github.com/nexusflowai/NexusRaven?tab=readme-ov-file#evaluation)]
 - [2024/05] **Seal-Tools: Self-Instruct Tool Learning Dataset for Agent Tuning and Detailed Benchmark.** *Mengsong Wu al. NLPCC 2024.* [[paper](https://arxiv.org/abs/2405.08355) / [code](https://github.com/fairyshine/Seal-Tools)]
-- [2024/09] **BFCL V3: Multi-Turn & Multi-Step Function Calling Evaluation.** *Huanzhi Mao al. Blog 2024.* [[blog](https://gorilla.cs.berkeley.edu/blogs/13_bfcl_v3_multi_turn.html) / [code](https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard) / [Leaderboard](https://gorilla.cs.berkeley.edu/leaderboard.html)]
+- [2024/09] **BFCL V3: Multi-Turn & Multi-Step Function Calling Evaluation.** *Huanzhi Mao al. Blog 2024.* [[blog](https://gorilla.cs.berkeley.edu/blogs/13_bfcl_v3_multi_turn.html) / [code](https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard) / [leaderboard](https://gorilla.cs.berkeley.edu/leaderboard.html)]
 
-### 2. Task Completion
+### 2. Conversational Task Completion Benchmarks
 - [2020/10] **ALFWorld: Aligning Text and Embodied Environments for Interactive Learning.** *Mohit Shridhar et al. ICLR 2021.* [[paper](https://arxiv.org/abs/2010.03768) / [code](https://github.com/alfworld/alfworld)]
 - [2022/03] **ScienceWorld: Is your Agent Smarter than a 5th Grader?.** *Ruoyao Wang et al. EMNLP 2022.* [[paper](https://arxiv.org/abs/2203.07540) / [code](https://github.com/allenai/ScienceWorld)]
 - [2022/07] **WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents?.** *Shunyu Yao et al. NeurIPS 2022.* [[paper](https://arxiv.org/abs/2207.01206) / [code](https://github.com/princeton-nlp/WebShop)]
-- [2024/01] **AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents.** *Chang Ma et al. ICLR 2024.* [[paper](https://arxiv.org/abs/2401.13178) / [code](https://github.com/hkust-nlp/AgentBoard) / [Leaderboard](https://hkust-nlp.github.io/agentboard/static/leaderboard.html)]
-- [2024/02] **TravelPlanner: A Benchmark for Real-World Planning with Language Agents.** *Jian Xie et al. ICML 2024.* [[paper](https://arxiv.org/abs/2402.01622) / [code](https://github.com/OSU-NLP-Group/TravelPlanner) / [Leaderboard](https://huggingface.co/spaces/osunlp/TravelPlannerLeaderboard)]
+- [2024/01] **AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents.** *Chang Ma et al. ICLR 2024.* [[paper](https://arxiv.org/abs/2401.13178) / [code](https://github.com/hkust-nlp/AgentBoard) / [leaderboard](https://hkust-nlp.github.io/agentboard/static/leaderboard.html)]
+- [2024/02] **TravelPlanner: A Benchmark for Real-World Planning with Language Agents.** *Jian Xie et al. ICML 2024.* [[paper](https://arxiv.org/abs/2402.01622) / [code](https://github.com/OSU-NLP-Group/TravelPlanner) / [leaderboard](https://huggingface.co/spaces/osunlp/TravelPlannerLeaderboard)]
 - [2024/06] **τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains.** *Shunyu Yao et al. ICLR 2025.* [[paper](https://arxiv.org/abs/2406.12045) / [code](https://github.com/sierra-research/tau-bench)]
+
+![teaser](assets/benchmarks.png)
 
 ---
 
-## Citation
-If you find this repository useful in your research or projects, please cite our official paper:
+## 🤝 Contributions
+This is an actively maintained Conversational Agent resource repository by the authors. Contributions are always welcome, feel free to submit a PR!
+
+
+## 📚 Citation
+If you find this repository helpful in your research or projects, please cite our paper:
 ```bibtex
 @misc{acikgoz2025desideratum,
       title={A Desideratum for Conversational Agents: Capabilities, Challenges, and Future Directions}, 
@@ -186,12 +193,8 @@ If you find this repository useful in your research or projects, please cite our
 }
 ```
 
-## 🤝 Contributions
-This is an actively maintained Conversational Agent resource repository by the authors. Contributions are always welcome, feel free to submit a PR!
-
-
-## Contact
-For any inquiries, feel free to contact us at: acikgoz2@illinois.edu, chengq9@illinois.edu, hongru2@illinois.edu.
+## ✉️ Contact
+For any inquiries, feel free to contact us at: acikgoz2@illinois.edu, chengq9@illinois.edu, hrwise98@illinois.edu.
 <!-- ## 5. Surveys
 - [2023/03] **A Survey of Large Language Models.** *Wayne Xin Zhao et al. arXiv.* [[paper](https://arxiv.org/abs/2303.18223)]
 
