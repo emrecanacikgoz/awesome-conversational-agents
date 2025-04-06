@@ -193,7 +193,7 @@ If you find this repository helpful in your research or projects, please cite ou
 }
 ```
 
-## Contact
+## ✉️ Contact
 For any inquiries, feel free to contact us at: acikgoz2@illinois.edu, chengq9@illinois.edu, hrwise98@illinois.edu.
 <!-- ## 5. Surveys
 - [2023/03] **A Survey of Large Language Models.** *Wayne Xin Zhao et al. arXiv.* [[paper](https://arxiv.org/abs/2303.18223)]
