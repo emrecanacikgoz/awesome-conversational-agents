@@ -114,12 +114,12 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 - [2024/02] **Democratizing Large Language Models via Personalized Parameter-Efficient Fine-tuning.** *Zhaoxuan Tan et al. CoRR 2023.* [[paper](https://arxiv.org/abs/2402.04401) / [code](https://github.com/TamSiuhin/OPPU)]
 - [2024/06] **Personalized Pieces: Efficient Personalized Large Language Models through Collaborative Efforts.** *Zhaoxuan Tan et al. EMNLP 2024.* [[paper](https://arxiv.org/abs/2406.10471) / [code](https://github.com/TamSiuhin/Per-Pcs)]
 
-Generative Agents: Interactive Simulacra of Human Behavior
-
 #### 2.2.3 Emotion and Sentiment
 - [2018/11] **Towards Empathetic Open-domain Conversation Models: a New Benchmark and Dataset.** *Hannah Rashkin et al. ACL 2019.* [[paper](https://arxiv.org/abs/1811.00207) / [code](https://github.com/facebookresearch/EmpatheticDialogues)]
 - [2021/06] **Towards Emotional Support Dialog Systems.** *Jungwoo Lim et al. ACL 2021 Findings.* [[paper](https://arxiv.org/abs/2106.01144) / [code](https://github.com/thu-coai/Emotional-Support-Conversation)]
 - [2022/05] **D4: a Chinese Dialogue Dataset for Depression-Diagnosis-Oriented Chat.** *Binwei Yao et al. EMNLP 2022.* [[paper](https://arxiv.org/abs/2205.11764) / [code](https://github.com/BigBinnie/D4_baseline)]
+- [2023/04] **Is ChatGPT Equipped with Emotional Dialogue Capabilities?.** *Weixiang Zhao et al. arXiv 2023.* [[paper](https://arxiv.org/abs/2304.09582)]
+- [2023/08] **Cue-CoT: Chain-of-thought Prompting for Responding to In-depth Dialogue Questions with LLMs.** *Hongru Wang et al. EMNLP 2023 Findings.* [[paper](https://arxiv.org/abs/2305.11792) / [code](https://github.com/ruleGreen/Cue-CoT)]
 - [2023/08] **Reasoning before Responding: Integrating Commonsense-based Causality Explanation for Empathetic Response Generation.** *Yahui Fu et al. SIGDIAL 2023.* [[paper](https://arxiv.org/abs/2308.00085)]
 
  
@@ -187,7 +187,6 @@ Although evaluating agents is beyond the scope of our paper, we include suppleme
 
 ## 🤝 Contributions
 This is an actively maintained Conversational Agent resource repository by the authors. Contributions are always welcome, feel free to submit a PR!
-
 
 ## 📚 Citation
 If you find this repository helpful in your research or projects, please cite our paper:
