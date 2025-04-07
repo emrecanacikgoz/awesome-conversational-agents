@@ -43,6 +43,7 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 - [2022/05] **Least-to-Most Prompting Enables Complex Reasoning in Large Language Models.** *Denny Zhou et al. ICLR 2023.* [[paper](https://arxiv.org/abs/2205.10625)]
 - [2022/05] **Large Language Models are Zero-Shot Reasoners.** *Takeshi Kojima et al. NeurIPS 2022.* [[paper](https://arxiv.org/abs/2205.11916)]
 - [2022/11] **PAL: Program-aided Language Models.** *Luyu Gao et al. ICML 2023.* [[paper](https://arxiv.org/abs/2211.10435) / [code](https://github.com/reasoning-machines/pal)]
+- [2022/11] **Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks.** *Wenhu Chen et al. TMLR 2023.* [[paper](https://arxiv.org/abs/2211.12588)]
 - [2023/03] **Self-refine: Iterative refinement with self-feedback.** *Aman Madaan et al. NeurIPS 2023.* [[paper](https://arxiv.org/abs/2303.17651) / [code](https://github.com/madaan/self-refine)]
 - [2023/08] **Graph of thoughts: Solving elaborate problems with large language models.** *Maciej Besta et al. AAAI 2024.* [[paper](https://arxiv.org/abs/2308.09687) / [code](https://github.com/spcl/graph-of-thoughts)]
 - [2023/08] **Cue-CoT: Chain-of-thought Prompting for Responding to In-depth Dialogue Questions with LLMs.** *Hongru Wang et al. EMNLP 2023 Findings.* [[paper](https://arxiv.org/abs/2305.11792) / [code](https://github.com/ruleGreen/Cue-CoT)]
@@ -78,6 +79,8 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 #### 2.1.2 Self-Correction 
 - [2023/03] **Self-refine: Iterative refinement with self-feedback.** *Aman Madaan et al. NeurIPS 2023.* [[paper](https://arxiv.org/abs/2303.17651) / [code](https://github.com/madaan/self-refine)]
 - [2023/03] **Reflexion: Language Agents with Verbal Reinforcement Learning.** *Noah Shinn et al. NeurIPS 2023.* [[paper](https://arxiv.org/abs/2303.11366) / [code](https://github.com/noahshinn/reflexion)]
+- [2023/05] **Let's Verify Step by Step.** *Hunter Lightman et al. ICLR 2024.* [[paper](https://arxiv.org/abs/2305.20050)]
+- [2023/05] **Reasoning with Language Model is Planning with World Model.** *Shibo Hao et al. EMNLP 2023.* [[paper](https://arxiv.org/abs/2305.14992) / [code](https://github.com/maitrix-org/llm-reasoners)]
 - [2024/03] **Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents.** *Yifan Song et al. ACL 2024.* [[paper](https://arxiv.org/abs/2403.02502) / [code](https://github.com/Yifan-Song793/ETO)]
 - [2024/06] **Watch Every Step! LLM Agent Learning via Iterative Step-Level Process Refinement.** *Weimin Xiong et al. EMNLP 2024.* [[paper](https://arxiv.org/abs/2406.11176) / [code](https://github.com/WeiminXiong/IPR)]
 - [2025/01] **AgentRefine: Enhancing Agent Generalization through Refinement Tuning.** *Dayuan Fu et al. ICLR 2025.* [[paper](https://arxiv.org/abs/2501.01702) / [code](https://github.com/Fu-Dayuan/AgentRefine)]
@@ -102,11 +105,16 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 - [2025/03] **AskToAct: Enhancing LLMs Tool Use via Self-Correcting Clarification.** *Xuan Zhang et al. arXiv 2025.* [[paper](https://www.arxiv.org/abs/2503.01940)]
 
 #### 2.2.2 Personalization and Persona
+- [2018/01] **Personalizing Dialogue Agents: I have a dog, do you have pets too?.** *Saizheng Zhang et al. ACL 2018.* [[paper](https://arxiv.org/abs/1801.07243)]
 - [2022/10] **Personalized Dialogue Generation with Persona-Adaptive Attention.** *Qiushi Huang et al. AAAI 2023.* [[paper](https://arxiv.org/abs/2210.15088) / [code](https://github.com/hqsiswiliam/persona-adaptive-attention)]
-- [2023/12] **Beyond Candidates: Adaptive Dialogue Agent Utilizing Persona and Knowledge.** *Jungwoo Lim et al. EMNLP 2023 Findings.* [[paper](https://aclanthology.org/2023.findings-emnlp.534/) / [code](https://github.com/dlawjddn803/BeCand)]
+- [2023/04] **LaMP: When Large Language Models Meet Personalization.** *Alireza Salemi et al. ACL 2024.* [[paper](https://arxiv.org/abs/2304.11406) / [code](https://github.com/LaMP-Benchmark/LaMP)]
+- [2023/04] **Generative Agents: Interactive Simulacra of Human Behavior.** *Joon Sung Park et al. UIST 2023.* [[paper](https://arxiv.org/abs/2304.03442) / [code](https://github.com/joonspk-research/generative_agents)]
 - [2023/08] **CharacterChat: Learning towards Conversational AI with Personalized Social Support.** *Quan Tu et al. arXiv 2023.* [[paper](https://arxiv.org/abs/2308.10278) / [code](https://github.com/morecry/CharacterChat)]
+- [2023/12] **Beyond Candidates: Adaptive Dialogue Agent Utilizing Persona and Knowledge.** *Jungwoo Lim et al. EMNLP 2023 Findings.* [[paper](https://aclanthology.org/2023.findings-emnlp.534/) / [code](https://github.com/dlawjddn803/BeCand)]
 - [2024/02] **Democratizing Large Language Models via Personalized Parameter-Efficient Fine-tuning.** *Zhaoxuan Tan et al. CoRR 2023.* [[paper](https://arxiv.org/abs/2402.04401) / [code](https://github.com/TamSiuhin/OPPU)]
 - [2024/06] **Personalized Pieces: Efficient Personalized Large Language Models through Collaborative Efforts.** *Zhaoxuan Tan et al. EMNLP 2024.* [[paper](https://arxiv.org/abs/2406.10471) / [code](https://github.com/TamSiuhin/Per-Pcs)]
+
+Generative Agents: Interactive Simulacra of Human Behavior
 
 #### 2.2.3 Emotion and Sentiment
 - [2018/11] **Towards Empathetic Open-domain Conversation Models: a New Benchmark and Dataset.** *Hannah Rashkin et al. ACL 2019.* [[paper](https://arxiv.org/abs/1811.00207) / [code](https://github.com/facebookresearch/EmpatheticDialogues)]
