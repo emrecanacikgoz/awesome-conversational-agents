@@ -156,6 +156,7 @@ Generative Agents: Interactive Simulacra of Human Behavior
 - [2022/04] **Dynamic Dialogue Policy for Continual Reinforcement Learning.** *Tsung-Hsien Wen et al. COLING 2022.* [[paper](https://arxiv.org/abs/2204.05928)]
 - [2023/05] **SGP-TOD: Building Task Bots Effortlessly via Schema-Guided LLM Prompting.** *Xiaoying Zhang et al. EMNLP 2023 Findings.* [[paper](https://arxiv.org/abs/2305.09067) / [code](https://github.com/zhangxy-2019/sgp-tod)]
 - [2023/04] **Are LLMs All You Need for Task-Oriented Dialogue?.** *Vojtěch Hudeček et al. SIGDIAL 2023.* [[paper](https://arxiv.org/abs/2304.06556) / [code](https://github.com/vojtsek/to-llm-bot)]
+- [2024/06] **τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains.** *Shunyu Yao et al. ICLR 2025.* [[paper](https://arxiv.org/abs/2406.12045) / [code](https://github.com/sierra-research/tau-bench)]
 - [2024/06] **FlowBench: Revisiting and Benchmarking Workflow-Guided Planning for LLM-based Agents.** *Ruixuan Xiao et al. EMNLP 2024 Findings.* [[paper](https://arxiv.org/abs/2406.14884) / [code](https://github.com/Justherozen/FlowBench)]
 - [2024/08] **Rethinking Task-Oriented Dialogue Systems: From Complex Modularity to Zero-Shot Autonomous Agent.** *Heng-Da Xu et al. ACL 2024.* [[paper](https://aclanthology.org/2024.acl-long.152/) / [code](https://github.com/DaDaMrX/AutoTOD)]
 
