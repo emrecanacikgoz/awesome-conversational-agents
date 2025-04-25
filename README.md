@@ -1,8 +1,8 @@
 # 💫 Awesome Conversational Agents
-[![Paper](https://img.shields.io/badge/arXiv-Paper-red.svg)](https://arxiv.org/abs/2502.08820) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/emrecanacikgoz/conversational-agents-survey/pulls)<br>
+[![Arxiv](https://img.shields.io/badge/arXiv-ConversationalAgents-b31b1b)](https://arxiv.org/abs/2504.16939) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/MIT) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)]([YES](https://github.com/emrecanacikgoz/conversational-agents-survey/)) [![Contribution Welcome](https://img.shields.io/badge/Contributions-welcome-blue)]()<br>
 This repository is a curated and actively maintained collection of papers on Conversational Agents, most of which are discussed in our paper. We always welcome community contributions through PRs!
 
-**[A Desideratum for Conversational Agents: Capabilities, Challenges, and Future Directions](https://emrecanacikgoz.github.io/CoALM/)**<br>
+**[A Desideratum for Conversational Agents: Capabilities, Challenges, and Future Directions](https://arxiv.org/abs/2504.16939)**<br>
 ---
 [Emre Can Acikgoz](https://emrecanacikgoz.github.io/), [Cheng Qian](https://qiancheng0.github.io/), [Hongru Wang](https://rulegreen.github.io/), [Vardhan Dongre](https://vardhandongre.github.io/), [Xiusi Chen](https://xiusic.github.io/), [Heng Ji](https://blender.cs.illinois.edu/hengji.html), [Dilek Hakkani-Tür](https://siebelschool.illinois.edu/about/people/faculty/dilek), [Gokhan Tur](https://siebelschool.illinois.edu/about/people/faculty/gokhan)
 
@@ -31,7 +31,8 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
     - [3.1.1 Tool Selection](#311-tool-selection)
     - [3.1.2 Tool Execution](#312-tool-execution)
   - [3.2 Policy Learning and Following](#32-policy-learning-and-following)
-- [📊 Appendix: Evaluation of Conversational Agents](#📊-appendix-evaluation-of-conversational-agents)
+- [📊 Appendix A: Evaluation of Conversational Agents](#📊-appendix-a-evaluation-of-conversational-agents)
+- [🤓 Appendix B: Helpful Surveys Mentioned in the Paper](#🤓-appendix-b-helpful-surveys-mentioned-in-the-paper)
 
 ---
 
@@ -162,7 +163,7 @@ Recent advances in Large Language Models (LLMs) have propelled conversational AI
 
 ---
 
-## 📊 Appendix: Evaluation of Conversational Agents
+## 📊 Appendix A: Evaluation of Conversational Agents
 Although evaluating agents is beyond the scope of our paper, we include supplementary materials in the appendix that focus on the evaluation of Conversational Agents, specifically covering: (i) Tool Utilization Benchmarks and (ii) Conversational Task Completion Benchmarks.
 
 ### 1. Tool Utilization Benchmarks
@@ -185,32 +186,43 @@ Although evaluating agents is beyond the scope of our paper, we include suppleme
 
 ---
 
+## 🤓 Appendix B: Helpful Surveys Mentioned in the Paper
+- [2017/11] **A Survey on Dialogue Systems: Recent Advances and New Frontiers.** *Hongshen Chen et al. ACM SIGKDD 2017.* [[paper](https://arxiv.org/abs/1711.01731)]
+- [2021/05] **Recent Advances in Deep Learning Based Dialogue Systems: A Systematic Survey.** *Jinjie Ni et al. Artificial Intelligence Review 2023.* [[paper](https://arxiv.org/abs/2105.04387)]
+- [2022/07] **"Do you follow me?": A Survey of Recent Approaches in Dialogue State Tracking** *Léo Jacqmin et al. SIGDIAL 2022.* [[paper](https://arxiv.org/abs/2207.14627)]
+- [2023/04] **Tool Learning with Foundation Models** *Yujia Qin et al. ACM Computing Surveys 2024.* [[paper](https://arxiv.org/abs/2304.08354) / [code](https://github.com/OpenBMB/BMTools)]
+- [2023/08] **A Survey on Large Language Model based Autonomous Agents** *Lei Wang et al. Frontiers of Computer Sciences 2024.* [[paper](https://arxiv.org/abs/2308.11432) / [code](https://github.com/Paitesanshi/LLM-Agent-Survey)]
+- [2023/09] **Cognitive Architectures for Language Agents** *Theodore R. Sumers et al. TMLR 2023.* [[paper](https://arxiv.org/abs/2309.02427) / [code](https://github.com/ysymyth/awesome-language-agents)]
+- [2023/11] **A Survey of the Evolution of Language Model-Based Dialogue Systems** *Hongru Wang et al. arXiv 2023.* [[paper](https://arxiv.org/abs/2311.16789)]
+- [2024/04] **From Persona to Personalization: A Survey on Role-Playing Language Agents** *Jiangjie Chen et al. TMLR 2024.* [[paper](https://arxiv.org/abs/2404.18231)]
+- [2024/05] **Tool Learning with Large Language Models: A Survey** *Changle Qu et al. Frontiers of Computer Science 2025.* [[paper](https://arxiv.org/abs/2405.17935) / [code](https://github.com/quchangle1/LLM-Tool-Survey)]
+- [2025/01] **A Survey on Multi-Turn Interaction Capabilities of Large Language Models** *Chen Zhang et al. arXiv 2025.* [[paper](https://arxiv.org/abs/2501.09959)]
+- [2025/02] **From System 1 to System 2: A Survey of Reasoning Large Language Models** *Zhong-Zhi Li et al. arXiv 2025.* [[paper](https://arxiv.org/abs/2502.17419)]
+- [2025/02] **LLM Post-Training: A Deep Dive into Reasoning Large Language Models** *Komal Kumar et al. arXiv 2025.* [[paper](https://arxiv.org/abs/2502.21321) / [code](https://github.com/mbzuai-oryx/Awesome-LLM-Post-training)]
+- [2025/03] **What, How, Where, and How Well? A Survey on Test-Time Scaling in Large Language Models** *Qiyuan Zhang et al. arXiv 2025.* [[paper](https://arxiv.org/abs/2503.24235) / [code](https://github.com/testtimescaling/testtimescaling.github.io/)]
+- [2025/04] **Advances and Challenges in Foundation Agents: From Brain-Inspired Intelligence to Evolutionary, Collaborative, and Safe Systems** *Bang Liu et al. arXiv 2025.* [[paper](https://arxiv.org/abs/2504.01990) / [code](https://github.com/FoundationAgents/awesome-foundation-agents)]
+
+
 ## 🤝 Contributions
 This is an actively maintained Conversational Agent resource repository by the authors. Contributions are always welcome, feel free to submit a PR!
 
 ## 📚 Citation
 If you find this repository helpful in your research or projects, please cite our paper:
 ```bibtex
-@misc{acikgoz2025desideratum,
+@misc{acikgoz2025desideratumconversationalagentscapabilities,
       title={A Desideratum for Conversational Agents: Capabilities, Challenges, and Future Directions}, 
       author={Emre Can Acikgoz and Cheng Qian and Hongru Wang and Vardhan Dongre and Xiusi Chen and Heng Ji and Dilek Hakkani-Tür and Gokhan Tur},
       year={2025},
-      eprint={2305.02427},
+      eprint={2504.16939},
       archivePrefix={arXiv},
-      primaryClass={cs.AI}
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2504.16939}, 
 }
 ```
 
 ## ✉️ Contact
 For any inquiries, feel free to contact us at: acikgoz2@illinois.edu, chengq9@illinois.edu, hrwise98@illinois.edu.
-<!-- ## 5. Surveys
-- [2023/03] **A Survey of Large Language Models.** *Wayne Xin Zhao et al. arXiv.* [[paper](https://arxiv.org/abs/2303.18223)]
 
-- [2023/08] **A Survey on Large Language Model based Autonomous Agents.** *Lei Wang et al. arXiv.* [[paper](https://arxiv.org/abs/2308.11432)]
 
-- [2023/09] **The Rise and Potential of Large Language Model Based Agents: A Survey.** *Zhiheng Xi et al. arXiv.* [[paper](https://arxiv.org/abs/2309.07864)]
-
-- [2023/09] **An In-depth Survey of Large Language Model-based Artificial Intelligence Agents.** *Pengyu Zhao et al. arXiv.* [[paper](https://arxiv.org/abs/2309.14365)]
-
-- [2023/09] **Natural Language based Context Modeling and Reasoning for Ubiquitous Computing with Large Language Models: A Tutoria.** *Haoyi Xiong et al. arXiv.* [[paper](https://arxiv.org/abs/2309.15074)]
- -->
+### ❗️ License
+This work is under [MIT License](https://opensource.org/license/MIT).
