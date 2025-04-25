@@ -223,6 +223,7 @@ If you find this repository helpful in your research or projects, please cite ou
 ## ✉️ Contact
 For any inquiries, feel free to contact us at: acikgoz2@illinois.edu, chengq9@illinois.edu, hrwise98@illinois.edu.
 
+---
 
 ### ❗️ License
 This work is under [MIT License](https://opensource.org/license/MIT).
