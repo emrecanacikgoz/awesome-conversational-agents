@@ -225,5 +225,5 @@ For any inquiries, feel free to contact us at: acikgoz2@illinois.edu, chengq9@il
 
 ---
 
-### ❗️ License
+### License
 This work is under [MIT License](https://opensource.org/license/MIT).
